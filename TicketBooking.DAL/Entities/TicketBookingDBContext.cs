@@ -153,80 +153,80 @@ namespace TicketBooking.DAL.Entities
 
 
 
+            
 
+            ////  Seed Data 
 
-            //  Seed Data 
+            //// Companies
+            //modelBuilder.Entity<Company>().HasData(
+            //    new Company { Id = 1, Name = "GreenLine" },
+            //    new Company { Id = 2, Name = "Shohagh" },
+            //    new Company { Id = 3, Name = "Hanif" },
+            //    new Company { Id = 4, Name = "Soudia" }
+            //);
 
-            // Companies
-            modelBuilder.Entity<Company>().HasData(
-                new Company { Id = 1, Name = "GreenLine" },
-                new Company { Id = 2, Name = "Shohagh" },
-                new Company { Id = 3, Name = "Hanif" },
-                new Company { Id = 4, Name = "Soudia" }
-            );
+            //// Routes
+            //modelBuilder.Entity<Route>().HasData(
+            //    new Route { Id = 1, Origin = "Dhaka", Destination = "Chittagong" },
+            //    new Route { Id = 2, Origin = "Dhaka", Destination = "Sylhet" },
+            //    new Route { Id = 3, Origin = "Dhaka", Destination = "Rajshahi" },
+            //    new Route { Id = 4, Origin = "Chittagong", Destination = "Sylhet" }
+            //);
 
-            // Routes
-            modelBuilder.Entity<Route>().HasData(
-                new Route { Id = 1, Origin = "Dhaka", Destination = "Chittagong" },
-                new Route { Id = 2, Origin = "Dhaka", Destination = "Sylhet" },
-                new Route { Id = 3, Origin = "Dhaka", Destination = "Rajshahi" },
-                new Route { Id = 4, Origin = "Chittagong", Destination = "Sylhet" }
-            );
+            //// Vehicles
+            //modelBuilder.Entity<Vehicle>().HasData(
+            //    new Vehicle { Id = 1, Type = "Bus", DepartureTime = DateTime.Today.AddHours(10), BaseFare = 1200, TotalSeats = 40, CompanyId = 1, RouteId = 1 },
+            //    new Vehicle { Id = 2, Type = "Bus", DepartureTime = DateTime.Today.AddHours(14), BaseFare = 1100, TotalSeats = 40, CompanyId = 2, RouteId = 2 },
+            //    new Vehicle { Id = 3, Type = "Bus", DepartureTime = DateTime.Today.AddHours(16), BaseFare = 1000, TotalSeats = 40, CompanyId = 3, RouteId = 3 },
+            //    new Vehicle { Id = 4, Type = "Bus", DepartureTime = DateTime.Today.AddHours(18), BaseFare = 1300, TotalSeats = 40, CompanyId = 4, RouteId = 4 }
+            //);
 
-            // Vehicles
-            modelBuilder.Entity<Vehicle>().HasData(
-                new Vehicle { Id = 1, Type = "Bus", DepartureTime = DateTime.Today.AddHours(10), BaseFare = 1200, TotalSeats = 40, CompanyId = 1, RouteId = 1 },
-                new Vehicle { Id = 2, Type = "Bus", DepartureTime = DateTime.Today.AddHours(14), BaseFare = 1100, TotalSeats = 40, CompanyId = 2, RouteId = 2 },
-                new Vehicle { Id = 3, Type = "Bus", DepartureTime = DateTime.Today.AddHours(16), BaseFare = 1000, TotalSeats = 40, CompanyId = 3, RouteId = 3 },
-                new Vehicle { Id = 4, Type = "Bus", DepartureTime = DateTime.Today.AddHours(18), BaseFare = 1300, TotalSeats = 40, CompanyId = 4, RouteId = 4 }
-            );
+            //// Seats (4 seats per vehicle )
+            //modelBuilder.Entity<Seat>().HasData(
+            //    // Vehicle 1
+            //    new Seat { Id = 1, SeatNumber = "A1", VehicleId = 1, IsBooked = false },
+            //    new Seat { Id = 2, SeatNumber = "A2", VehicleId = 1, IsBooked = false },
+            //    new Seat { Id = 3, SeatNumber = "A3", VehicleId = 1, IsBooked = false },
+            //    new Seat { Id = 4, SeatNumber = "A4", VehicleId = 1, IsBooked = false },
 
-            // Seats (4 seats per vehicle )
-            modelBuilder.Entity<Seat>().HasData(
-                // Vehicle 1
-                new Seat { Id = 1, SeatNumber = "A1", VehicleId = 1, IsBooked = false },
-                new Seat { Id = 2, SeatNumber = "A2", VehicleId = 1, IsBooked = false },
-                new Seat { Id = 3, SeatNumber = "A3", VehicleId = 1, IsBooked = false },
-                new Seat { Id = 4, SeatNumber = "A4", VehicleId = 1, IsBooked = false },
+            //    // Vehicle 2
+            //    new Seat { Id = 5, SeatNumber = "B1", VehicleId = 2, IsBooked = false },
+            //    new Seat { Id = 6, SeatNumber = "B2", VehicleId = 2, IsBooked = false },
+            //    new Seat { Id = 7, SeatNumber = "B3", VehicleId = 2, IsBooked = false },
+            //    new Seat { Id = 8, SeatNumber = "B4", VehicleId = 2, IsBooked = false }
+            //);
 
-                // Vehicle 2
-                new Seat { Id = 5, SeatNumber = "B1", VehicleId = 2, IsBooked = false },
-                new Seat { Id = 6, SeatNumber = "B2", VehicleId = 2, IsBooked = false },
-                new Seat { Id = 7, SeatNumber = "B3", VehicleId = 2, IsBooked = false },
-                new Seat { Id = 8, SeatNumber = "B4", VehicleId = 2, IsBooked = false }
-            );
+            //// Users
+            //modelBuilder.Entity<User>().HasData(
+            //    new User { Id = 1, FullName = "Rahim", Email = "rahim@gmail.com", Password = "Rahim@123", Role = UserRole.Customer, CreatedAt = DateTime.UtcNow },
+            //    new User { Id = 2, FullName = "Karim", Email = "karim@gmail.com", Password = "Karim@123", Role = UserRole.Customer, CreatedAt = DateTime.UtcNow },
+            //    new User { Id = 3, FullName = "Salma", Email = "salma@gmail.com", Password = "Salma@123", Role = UserRole.Customer, CreatedAt = DateTime.UtcNow },
+            //    new User { Id = 4, FullName = "Rita", Email = "rita@gmail.com", Password = "Rita@123", Role = UserRole.Customer, CreatedAt = DateTime.UtcNow }
+            //);
 
-            // Users
-            modelBuilder.Entity<User>().HasData(
-                new User { Id = 1, FullName = "Rahim", Email = "rahim@gmail.com", Password = "Rahim@123", Role = UserRole.Customer, CreatedAt = DateTime.UtcNow },
-                new User { Id = 2, FullName = "Karim", Email = "karim@gmail.com", Password = "Karim@123", Role = UserRole.Customer, CreatedAt = DateTime.UtcNow },
-                new User { Id = 3, FullName = "Salma", Email = "salma@gmail.com", Password = "Salma@123", Role = UserRole.Customer, CreatedAt = DateTime.UtcNow },
-                new User { Id = 4, FullName = "Rita", Email = "rita@gmail.com", Password = "Rita@123", Role = UserRole.Customer, CreatedAt = DateTime.UtcNow }
-            );
+            //// Bookings
+            //modelBuilder.Entity<Booking>().HasData(
+            //    new Booking { Id = 1, UserId = 1, VehicleId = 1, Status = BookingStatus.Confirmed, BookingDate = DateTime.UtcNow, TotalFare = 2400, DiscountPercent = 0, NetFare = 2400, CreatedAt = DateTime.UtcNow },
+            //    new Booking { Id = 2, UserId = 2, VehicleId = 1, Status = BookingStatus.Pending, BookingDate = DateTime.UtcNow, TotalFare = 1200, DiscountPercent = 0, NetFare = 1200, CreatedAt = DateTime.UtcNow },
+            //    new Booking { Id = 3, UserId = 3, VehicleId = 2, Status = BookingStatus.Confirmed, BookingDate = DateTime.UtcNow, TotalFare = 2200, DiscountPercent = 10, NetFare = 1980, CreatedAt = DateTime.UtcNow },
+            //    new Booking { Id = 4, UserId = 4, VehicleId = 2, Status = BookingStatus.Cancelled, BookingDate = DateTime.UtcNow, TotalFare = 1100, DiscountPercent = 0, NetFare = 1100, CreatedAt = DateTime.UtcNow }
+            //);
 
-            // Bookings
-            modelBuilder.Entity<Booking>().HasData(
-                new Booking { Id = 1, UserId = 1, VehicleId = 1, Status = BookingStatus.Confirmed, BookingDate = DateTime.UtcNow, TotalFare = 2400, DiscountPercent = 0, NetFare = 2400, CreatedAt = DateTime.UtcNow },
-                new Booking { Id = 2, UserId = 2, VehicleId = 1, Status = BookingStatus.Pending, BookingDate = DateTime.UtcNow, TotalFare = 1200, DiscountPercent = 0, NetFare = 1200, CreatedAt = DateTime.UtcNow },
-                new Booking { Id = 3, UserId = 3, VehicleId = 2, Status = BookingStatus.Confirmed, BookingDate = DateTime.UtcNow, TotalFare = 2200, DiscountPercent = 10, NetFare = 1980, CreatedAt = DateTime.UtcNow },
-                new Booking { Id = 4, UserId = 4, VehicleId = 2, Status = BookingStatus.Cancelled, BookingDate = DateTime.UtcNow, TotalFare = 1100, DiscountPercent = 0, NetFare = 1100, CreatedAt = DateTime.UtcNow }
-            );
+            //// BookingSeats
+            //modelBuilder.Entity<BookingSeat>().HasData(
+            //    new BookingSeat { Id = 1, BookingId = 1, SeatId = 1 },
+            //    new BookingSeat { Id = 2, BookingId = 1, SeatId = 2 },
+            //    new BookingSeat { Id = 3, BookingId = 2, SeatId = 3 },
+            //    new BookingSeat { Id = 4, BookingId = 3, SeatId = 5 }
+            //);
 
-            // BookingSeats
-            modelBuilder.Entity<BookingSeat>().HasData(
-                new BookingSeat { Id = 1, BookingId = 1, SeatId = 1 },
-                new BookingSeat { Id = 2, BookingId = 1, SeatId = 2 },
-                new BookingSeat { Id = 3, BookingId = 2, SeatId = 3 },
-                new BookingSeat { Id = 4, BookingId = 3, SeatId = 5 }
-            );
-
-            // Payments
-            modelBuilder.Entity<Payment>().HasData(
-                new Payment { Id = 1, BookingId = 1, Amount = 2400, Status = PaymentStatus.Paid, PaymentDate = DateTime.UtcNow, TransactionId = "TXN1001", Method = "Card" },
-                new Payment { Id = 2, BookingId = 2, Amount = 1200, Status = PaymentStatus.Failed, PaymentDate = DateTime.UtcNow, TransactionId = "TXN1002", Method = "Cash" },
-                new Payment { Id = 3, BookingId = 3, Amount = 1980, Status = PaymentStatus.Paid, PaymentDate = DateTime.UtcNow, TransactionId = "TXN1003", Method = "Mobile Banking" },
-                new Payment { Id = 4, BookingId = 4, Amount = 1100, Status = PaymentStatus.Refunded, PaymentDate = DateTime.UtcNow, TransactionId = "TXN1004", Method = "Card" }
-            );
+            //// Payments
+            //modelBuilder.Entity<Payment>().HasData(
+            //    new Payment { Id = 1, BookingId = 1, Amount = 2400, Status = PaymentStatus.Paid, PaymentDate = DateTime.UtcNow, TransactionId = "TXN1001", Method = "Card" },
+            //    new Payment { Id = 2, BookingId = 2, Amount = 1200, Status = PaymentStatus.Failed, PaymentDate = DateTime.UtcNow, TransactionId = "TXN1002", Method = "Cash" },
+            //    new Payment { Id = 3, BookingId = 3, Amount = 1980, Status = PaymentStatus.Paid, PaymentDate = DateTime.UtcNow, TransactionId = "TXN1003", Method = "Mobile Banking" },
+            //    new Payment { Id = 4, BookingId = 4, Amount = 1100, Status = PaymentStatus.Refunded, PaymentDate = DateTime.UtcNow, TransactionId = "TXN1004", Method = "Card" }
+            //);
 
 
         }
