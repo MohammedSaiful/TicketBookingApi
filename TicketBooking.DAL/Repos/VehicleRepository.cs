@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,64 +11,116 @@ namespace TicketBooking.DAL.Repos
 {
     internal class VehicleRepository : DatabaseRepository, IVehicleFeature
     {
-        public Task<Vehicle> CreateAsync(Vehicle entity)
+        // Create
+        public async Task<bool> CreateAsync(Vehicle entity)
         {
-            throw new NotImplementedException();
+            _db.Vehicles.Add(entity);
+            return await _db.SaveChangesAsync() > 0;
         }
 
-        public Task<Vehicle> CreateWithSeatsAsync(Vehicle vehicle, int seatCount)
+        // Create vehicle and seats
+        public async Task<Vehicle> CreateWithSeatsAsync(Vehicle vehicle, int seatCount)
         {
-            throw new NotImplementedException();
+            
+            // Add vehicle
+            _db.Vehicles.Add(vehicle);
+            await _db.SaveChangesAsync();
+
+            // Add seats directly
+            for (int i = 1; i <= seatCount; i++)
+            {
+                _db.Seats.Add(new Seat
+                {
+                    SeatNumber = i.ToString(),
+                    VehicleId = vehicle.Id,
+                    IsBooked = false
+                });
+            }
+
+            // Save all seats
+            await _db.SaveChangesAsync();
+
+            return vehicle;
         }
 
-        public Task<bool> DeleteAsync(int id)
+        // Delete vehicle
+        public async Task<bool> DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            var vehicle = await _db.Vehicles.FindAsync(id);
+            if (vehicle == null) return false;
+
+            _db.Vehicles.Remove(vehicle);
+            return await _db.SaveChangesAsync() > 0;
         }
 
-        public Task<List<Vehicle>> GetAllAsync()
+        // Get all vehicles
+        public async Task<List<Vehicle>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _db.Vehicles.ToListAsync();
         }
 
-        public Task<Vehicle?> GetAsync(int id)
+        // Get vehicle by id
+        public async Task<Vehicle?> GetAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _db.Vehicles.FindAsync(id);
         }
 
-        public Task<List<Seat>> GetAvailableSeatsAsync(int vehicleId)
+        // Get available seats of a vehicle
+        public async Task<List<Seat>> GetAvailableSeatsAsync(int vehicleId)
         {
-            throw new NotImplementedException();
+            return await _db.Seats
+                .Where(s => s.VehicleId == vehicleId && !s.IsBooked)
+                .ToListAsync();
         }
 
-        public Task<List<Vehicle>> GetByCompanyAsync(int companyId)
+        // Get vehicles with their company details
+        public async Task<List<Vehicle>> GetWithCompanyAsync()
         {
-            throw new NotImplementedException();
+            return await _db.Vehicles
+                .Include(v => v.Company)
+                .ToListAsync();
         }
 
-        public Task<List<Vehicle>> GetByRouteAsync(int routeId)
+        // Get vehicles with their route details
+        public async Task<List<Vehicle>> GetWithRouteAsync()
         {
-            throw new NotImplementedException();
+            return await _db.Vehicles
+                .Include(v => v.Route)
+                .ToListAsync();
         }
 
-        public Task<List<Vehicle>> GetWithCompanyAsync()
+        // Get vehicles with their seats
+        public async Task<List<Vehicle>> GetWithSeatsAsync()
         {
-            throw new NotImplementedException();
+            return await _db.Vehicles
+                .Include(v => v.Seats)
+                .ToListAsync();
         }
 
-        public Task<List<Vehicle>> GetWithRouteAsync()
+        // Get vehicles by company
+        public async Task<List<Vehicle>> GetByCompanyAsync(int companyId)
         {
-            throw new NotImplementedException();
+            return await _db.Vehicles
+                .Where(v => v.CompanyId == companyId)
+                .ToListAsync();
         }
 
-        public Task<List<Vehicle>> GetWithSeatsAsync()
+        // Get vehicles by route
+        public async Task<List<Vehicle>> GetByRouteAsync(int routeId)
         {
-            throw new NotImplementedException();
+            return await _db.Vehicles
+                .Where(v => v.RouteId == routeId)
+                .ToListAsync();
         }
 
-        public Task<bool> UpdateAsync(Vehicle entity)
+        // Update vehicle details
+        public async Task<bool> UpdateAsync(Vehicle entity)
         {
-            throw new NotImplementedException();
+            var exist = await _db.Vehicles.FindAsync(entity.Id);
+            if (exist == null) return false;
+
+            _db.Entry(exist).CurrentValues.SetValues(entity);
+            return await _db.SaveChangesAsync() > 0;
         }
     }
 }

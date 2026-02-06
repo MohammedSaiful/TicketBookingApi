@@ -11,7 +11,7 @@ namespace TicketBooking.DAL.Interfaces
     {
         Task<TEntity?> GetAsync(int id);
         Task<List<TEntity>> GetAllAsync();
-        Task<TEntity> CreateAsync(TEntity entity);
+        Task<bool> CreateAsync(TEntity entity);
         Task<bool> UpdateAsync(TEntity entity);
         Task<bool> DeleteAsync(int id);
     }

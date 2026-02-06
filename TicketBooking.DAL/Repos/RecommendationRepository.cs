@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,14 +11,34 @@ namespace TicketBooking.DAL.Repos
 {
     internal class RecommendationRepository : DatabaseRepository, IRecommendationFeature
     {
-        public Task<List<Vehicle>> GetPopularVehiclesAsync()
+        // Top routes based on number of bookings
+        public async Task<List<Route>> GetTopRoutesAsync()
         {
-            throw new NotImplementedException();
+            var topRoutes = await _db.Bookings
+                .Include(b => b.Vehicle)
+                    .ThenInclude(v => v.Route)
+                .GroupBy(b => b.Vehicle.Route)
+                .OrderByDescending(g => g.Count())
+                .Select(g => g.Key)
+                .Take(5) // top 5 routes
+                .ToListAsync();
+
+            return topRoutes;
         }
 
-        public Task<List<Route>> GetTopRoutesAsync()
+        // Popular vehicles based on number of bookings
+        public async Task<List<Vehicle>> GetPopularVehiclesAsync()
         {
-            throw new NotImplementedException();
+            var popularVehicles = await _db.Bookings
+                .Include(b => b.Vehicle)
+                    .ThenInclude(v => v.Seats)
+                .GroupBy(b => b.Vehicle)
+                .OrderByDescending(g => g.Count())
+                .Select(g => g.Key)
+                .Take(5) // top 5 vehicles
+                .ToListAsync();
+
+            return popularVehicles;
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,34 +11,57 @@ namespace TicketBooking.DAL.Repos
 {
     internal class UserRepository : DatabaseRepository, IUserFeature
     {
-        public Task<User> CreateAsync(User entity)
+        // Create a new User
+        public async Task<bool> CreateAsync(User entity)
         {
-            throw new NotImplementedException();
+            _db.Users.Add(entity);
+            return await _db.SaveChangesAsync() > 0;
         }
 
-        public Task<bool> DeleteAsync(int id)
+        // Delete a User by id
+        public async Task<bool> DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            var user = await _db.Users.FindAsync(id);
+            if (user == null) return false;
+
+            _db.Users.Remove(user);
+            return await _db.SaveChangesAsync() > 0;
         }
 
-        public Task<List<User>> GetAllAsync()
+        // Get all users
+        public async Task<List<User>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _db.Users.ToListAsync();
         }
 
-        public Task<User?> GetAsync(int id)
+        // Get a single user by id
+        public async Task<User?> GetAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _db.Users.FindAsync(id);
         }
 
-        public Task<User?> GetWithBookingsAsync(int userId)
+        // Update user details
+        public async Task<bool> UpdateAsync(User entity)
         {
-            throw new NotImplementedException();
+            var exist = await _db.Users.FindAsync(entity.Id);
+            if (exist == null) return false;
+
+            _db.Entry(exist).CurrentValues.SetValues(entity);
+            return await _db.SaveChangesAsync() > 0;
         }
 
-        public Task<bool> UpdateAsync(User entity)
+        // Get a user along with all bookings
+        public async Task<User?> GetWithBookingsAsync(int userId)
         {
-            throw new NotImplementedException();
+            return await _db.Users
+                .Include(u => u.Bookings)
+                    .ThenInclude(b => b.BookingSeats)
+                        .ThenInclude(bs => bs.Seat)
+                .Include(u => u.Bookings)
+                    .ThenInclude(b => b.Payment)
+                .FirstOrDefaultAsync(u => u.Id == userId);
         }
+
+        
     }
 }

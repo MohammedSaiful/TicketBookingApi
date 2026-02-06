@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,44 +11,84 @@ namespace TicketBooking.DAL.Repos
 {
     internal class RoutRepository : DatabaseRepository, ISearchFeature
     {
-        public Task<Route> CreateAsync(Route entity)
+        // Create a new Route
+        public async Task<bool> CreateAsync(Route entity)
         {
-            throw new NotImplementedException();
+            _db.Routes.Add(entity);
+            return await _db.SaveChangesAsync() > 0;
         }
 
-        public Task<bool> DeleteAsync(int id)
+        // Delete a Route by id
+        public async Task<bool> DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            var route = await _db.Routes.FindAsync(id);
+            if (route == null) return false;
+
+            _db.Routes.Remove(route);
+            return await _db.SaveChangesAsync() > 0;
         }
 
-        public Task<List<Route>> GetAllAsync()
+        // Get all Routes
+        public async Task<List<Route>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _db.Routes.ToListAsync();
         }
 
-        public Task<Route?> GetAsync(int id)
+        // Get a Route by id
+        public async Task<Route?> GetAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _db.Routes.FindAsync(id);
         }
 
-        public Task<List<Vehicle>> SearchAsync(string origin, string destination, DateTime? date)
+        // Update a Route
+        public async Task<bool> UpdateAsync(Route entity)
         {
-            throw new NotImplementedException();
+            var exist = await _db.Routes.FindAsync(entity.Id);
+            if (exist == null) return false;
+
+            _db.Entry(exist).CurrentValues.SetValues(entity);
+            return await _db.SaveChangesAsync() > 0;
         }
 
-        public Task<List<Route>> SearchByDateWithVehicleAsync(DateTime date)
+        // Search for Vehicles by origin, destination, optional date
+        public async Task<List<Vehicle>> SearchAsync(string origin, string destination, DateTime? date)
         {
-            throw new NotImplementedException();
+            var query = _db.Vehicles
+                .Include(v => v.Route)
+                .Include(v => v.Seats)
+                .AsQueryable();
+
+            if (!string.IsNullOrEmpty(origin))
+                query = query.Where(v => v.Route.Origin == origin);
+
+            if (!string.IsNullOrEmpty(destination))
+                query = query.Where(v => v.Route.Destination == destination);
+
+            if (date.HasValue)
+                query = query.Where(v => v.DepartureTime.Date == date.Value.Date);
+
+            return await query.ToListAsync();
         }
 
-        public Task<List<Route>> SearchWithVehiclesAsync(string origin, string destination)
+        // Get Routes with their Vehicles by origin and destination
+        public async Task<List<Route>> SearchWithVehiclesAsync(string origin, string destination)
         {
-            throw new NotImplementedException();
+            var routes = await _db.Routes
+                .Include(r => r.Vehicles)
+                .Where(r => r.Origin == origin && r.Destination == destination)
+                .ToListAsync();
+
+            return routes;
         }
 
-        public Task<bool> UpdateAsync(Route entity)
+        // Get Routes with Vehicles filtered by date
+        public async Task<List<Route>> SearchByDateWithVehicleAsync(DateTime date)
         {
-            throw new NotImplementedException();
+            var routes = await _db.Routes
+                .Include(r => r.Vehicles.Where(v => v.DepartureTime.Date == date.Date))
+                .ToListAsync();
+
+            return routes;
         }
     }
 }

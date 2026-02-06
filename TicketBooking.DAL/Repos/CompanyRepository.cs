@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,39 +11,60 @@ namespace TicketBooking.DAL.Repos
 {
     internal class CompanyRepository : DatabaseRepository, ICompanyFeature
     {
-        public Task<Company> CreateAsync(Company entity)
+        // Create a new company
+        public async Task<bool> CreateAsync(Company entity)
         {
-            throw new NotImplementedException();
+            _db.Companies.Add(entity);
+            return await _db.SaveChangesAsync()>0;
         }
 
-        public Task<bool> DeleteAsync(int id)
+        // Get company by Id
+        public async Task<Company?> GetAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _db.Companies.FindAsync(id);
         }
 
-        public Task<List<Company>> GetAllAsync()
+        // Get all companies
+        public async Task<List<Company>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _db.Companies.ToListAsync();
         }
 
-        public Task<Company?> GetAsync(int id)
+        // Update company
+        public async Task<bool> UpdateAsync(Company entity)
         {
-            throw new NotImplementedException();
+            var exist = await _db.Companies.FindAsync(entity.Id);
+            if (exist == null) return false;
+
+            _db.Entry(exist).CurrentValues.SetValues(entity);
+            return await _db.SaveChangesAsync() > 0;
         }
 
-        public Task<Company?> GetWithVehiclesAsync(int companyId)
+        // Delete company
+        public async Task<bool> DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            var exist = await _db.Companies.FindAsync(id);
+            if (exist == null) return false;
+
+            _db.Companies.Remove(exist);
+            return await _db.SaveChangesAsync() > 0;
         }
 
-        public Task<bool> UpdateAsync(Company entity)
+        // Get company with all vehicles
+        public async Task<Company?> GetWithVehiclesAsync(int companyId)
         {
-            throw new NotImplementedException();
+            return await _db.Companies
+                .Include(c => c.Vehicles)
+                //.ThenInclude(v => v.Seats) // optional if you want seats too
+                .FirstOrDefaultAsync(c => c.Id == companyId);
         }
 
-        public Task<int> VehicleCountAsync(int companyId)
+        // Get total number of vehicles for a company
+        public async Task<int> VehicleCountAsync(int companyId)
         {
-            throw new NotImplementedException();
+            return await _db.Vehicles
+                .Where(v => v.CompanyId == companyId)
+                .CountAsync();
         }
     }
 }

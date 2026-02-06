@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,19 +11,37 @@ namespace TicketBooking.DAL.Repos
 {
     internal class ReportRepository : DatabaseRepository, IReportFeature
     {
-        public Task<List<TopRouteResult>> GetTopRoutesAsync()
+        // Get total number of bookings
+        public async Task<int> GetTotalBookingsAsync()
         {
-            throw new NotImplementedException();
+            return await _db.Bookings.CountAsync();
         }
 
-        public Task<int> GetTotalBookingsAsync()
+        // Get total revenue from all payments
+        public async Task<decimal> GetTotalRevenueAsync()
         {
-            throw new NotImplementedException();
+            return await _db.Payments
+                .Where(p => p.Status == PaymentStatus.Paid)
+                .SumAsync(p => p.Amount);
         }
 
-        public Task<decimal> GetTotalRevenueAsync()
+        // Get top routes with booking counts
+        public async Task<List<TopRouteResult>> GetTopRoutesAsync()
         {
-            throw new NotImplementedException();
+            var topRoutes = await _db.Bookings
+                .Include(b => b.Vehicle)
+                    .ThenInclude(v => v.Route)
+                .GroupBy(b => b.Vehicle.Route)
+                .Select(g => new TopRouteResult
+                {
+                    Route = g.Key,
+                    BookingCount = g.Count()
+                })
+                .OrderByDescending(r => r.BookingCount)
+                .Take(5)
+                .ToListAsync();
+
+            return topRoutes;
         }
     }
 }
