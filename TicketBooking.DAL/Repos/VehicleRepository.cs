@@ -9,8 +9,14 @@ using TicketBooking.DAL.Interfaces;
 
 namespace TicketBooking.DAL.Repos
 {
-    internal class VehicleRepository : DatabaseRepository, IVehicleFeature
+    internal class VehicleRepository : IVehicleFeature
     {
+        private readonly TicketBookingDBContext _db;
+        public VehicleRepository(TicketBookingDBContext db)
+        {
+            _db = db;
+        }
+
         // Create
         public async Task<bool> CreateAsync(Vehicle entity)
         {

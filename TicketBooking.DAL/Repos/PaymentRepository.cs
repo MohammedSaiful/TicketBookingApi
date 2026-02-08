@@ -9,8 +9,14 @@ using TicketBooking.DAL.Interfaces;
 
 namespace TicketBooking.DAL.Repos
 {
-    internal class PaymentRepository : DatabaseRepository, IPaymentFeature
+    internal class PaymentRepository : IPaymentFeature
     {
+        private readonly TicketBookingDBContext _db;
+        public PaymentRepository(TicketBookingDBContext db)
+        {
+            _db = db;
+        }
+
         // Create a new payment
         public async Task<bool> CreateAsync(Payment entity)
         {

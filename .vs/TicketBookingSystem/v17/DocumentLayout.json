@@ -3,88 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\booking\\bookingdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\booking\\bookingdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\mappings\\bookingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\mappings\\bookingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\booking\\bookingcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\booking\\bookingcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\interfaces\\irecommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\interfaces\\irecommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\company\\companyvehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\company\\companyvehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\interfaces\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\interfaces\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\company\\vehicleinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\company\\vehicleinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\interfaces\\isearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\interfaces\\isearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\vehicle\\vehicledetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\vehicle\\vehicledetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\interfaces\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\interfaces\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\vehicle\\vehiclereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\vehicle\\vehiclereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\interfaces\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\interfaces\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\vehicle\\vehicleroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\vehicle\\vehicleroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\vehicle\\vehiclecompanydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\vehicle\\vehiclecompanydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\vehicle\\vehiclecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\vehicle\\vehiclecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\user\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\user\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\user\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\user\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\search\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\search\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\booking\\seatdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\booking\\seatdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\recommendation\\recommendedroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\recommendation\\recommendedroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\recommendation\\popularvehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\recommendation\\popularvehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\search\\searchroutevehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\search\\searchroutevehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\search\\searchroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\search\\searchroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\report\\toproutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\report\\toproutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\report\\revenuereportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\report\\revenuereportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\report\\dashboardreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\report\\dashboardreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\payment\\paymentreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,88 +39,136 @@
       "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\payment\\paymentcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\company\\vehicleinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\company\\vehicleinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\company\\companyvehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\company\\companyvehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\company\\companyreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\company\\companyreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\company\\companycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\company\\companycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\interfaces\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\booking\\changebookingstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\booking\\changebookingstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\allmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\allmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\booking\\bookingreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\booking\\bookingreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\repos\\routerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\repos\\routerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\entities\\bookingseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\entities\\bookingseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\repos\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\repos\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\entities\\toprouteresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\entities\\toprouteresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\interfaces\\ivehiclefeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\interfaces\\ivehiclefeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\repos\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\repos\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\repos\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\repos\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\repos\\routrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\repos\\routrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\repos\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\repos\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\repos\\recommendationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\repos\\recommendationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\repos\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\repos\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\repos\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\repos\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\repos\\databaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\repos\\databaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\repos\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\repos\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\repos\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\repos\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\repos\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\repos\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\entities\\ticketbookingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\entities\\ticketbookingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0143BB96-3A79-41CC-A86B-BE85326C6567}|TicketBooking.API\\TicketBooking.API.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0143BB96-3A79-41CC-A86B-BE85326C6567}|TicketBooking.API\\TicketBooking.API.csproj|solutionrelative:ticketbooking.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\interfaces\\ibookingfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\interfaces\\ibookingfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\booking\\bookingcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\booking\\bookingcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\recommendation\\popularvehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\recommendation\\popularvehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\recommendation\\recommendedroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\recommendation\\recommendedroutedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\mappings\\companyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\mappings\\companyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\mappings\\paymentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\mappings\\paymentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\mappings\\vehicleprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\mappings\\vehicleprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\mappings\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\mappings\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\mappings\\searchprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\mappings\\searchprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\mappings\\reportprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\mappings\\reportprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\mappings\\recommendationprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\mappings\\recommendationprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\entities\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\entities\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\entities\\bookingseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\entities\\bookingseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\dtos\\booking\\seatdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\dtos\\booking\\seatdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\interfaces\\ivehiclefeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\interfaces\\ivehiclefeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\interfaces\\iuserfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -191,10 +183,6 @@
       "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\interfaces\\ireportfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\entities\\ticketbookingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\entities\\ticketbookingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\interfaces\\irecommendationfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\interfaces\\irecommendationfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -207,36 +195,8 @@
       "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\interfaces\\icompanyfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\entities\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\entities\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0143BB96-3A79-41CC-A86B-BE85326C6567}|TicketBooking.API\\TicketBooking.API.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0143BB96-3A79-41CC-A86B-BE85326C6567}|TicketBooking.API\\TicketBooking.API.csproj|solutionrelative:ticketbooking.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0143BB96-3A79-41CC-A86B-BE85326C6567}|TicketBooking.API\\TicketBooking.API.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0143BB96-3A79-41CC-A86B-BE85326C6567}|TicketBooking.API\\TicketBooking.API.csproj|solutionrelative:ticketbooking.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\entities\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\entities\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\entities\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\entities\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E32CF6A0-39A5-4162-B1F9-FA37D3846B9C}|TicketBooking.BLL\\TicketBooking.BLL.csproj|solutionrelative:ticketbooking.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|c:\\users\\islam\\downloads\\dot .net core project\\ticketbookingsystem\\ticketbooking.dal\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91726496-B735-495C-AB8B-371628273B0E}|TicketBooking.DAL\\TicketBooking.DAL.csproj|solutionrelative:ticketbooking.dal\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -250,743 +210,640 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VehicleDetailsDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Vehicle\\VehicleDetailsDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Vehicle\\VehicleDetailsDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Vehicle\\VehicleDetailsDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Vehicle\\VehicleDetailsDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ICompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Interfaces\\ICompanyService.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\Interfaces\\ICompanyService.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Interfaces\\ICompanyService.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\Interfaces\\ICompanyService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:31:17.093Z",
+              "WhenOpened": "2026-02-08T13:54:20.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "VehicleRouteDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Vehicle\\VehicleRouteDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Vehicle\\VehicleRouteDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Vehicle\\VehicleRouteDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Vehicle\\VehicleRouteDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Interfaces\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\Interfaces\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Interfaces\\IPaymentService.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\Interfaces\\IPaymentService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvxIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:35:29.18Z",
+              "WhenOpened": "2026-02-08T13:54:54.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VehicleReadDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Vehicle\\VehicleReadDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Vehicle\\VehicleReadDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Vehicle\\VehicleReadDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Vehicle\\VehicleReadDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IVehicleService.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Interfaces\\IVehicleService.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\Interfaces\\IVehicleService.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Interfaces\\IVehicleService.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\Interfaces\\IVehicleService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA3wBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:30:42.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CompanyVehicleDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Company\\CompanyVehicleDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Company\\CompanyVehicleDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Company\\CompanyVehicleDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Company\\CompanyVehicleDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T17:54:54.012Z",
+              "WhenOpened": "2026-02-08T13:55:47.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "VehicleInfoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Company\\VehicleInfoDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Company\\VehicleInfoDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Company\\VehicleInfoDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Company\\VehicleInfoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Title": "ISearchService.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Interfaces\\ISearchService.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\Interfaces\\ISearchService.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Interfaces\\ISearchService.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\Interfaces\\ISearchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:56:38.596Z",
+              "WhenOpened": "2026-02-08T13:55:26.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IReportService.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Interfaces\\IReportService.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\Interfaces\\IReportService.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Interfaces\\IReportService.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\Interfaces\\IReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T13:55:15.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BookingCreateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Booking\\BookingCreateDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Booking\\BookingCreateDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Booking\\BookingCreateDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Booking\\BookingCreateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Title": "IRecommendationService.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Interfaces\\IRecommendationService.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\Interfaces\\IRecommendationService.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Interfaces\\IRecommendationService.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\Interfaces\\IRecommendationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T15:54:01.295Z",
+              "WhenOpened": "2026-02-08T13:55:05.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BookingDetailsDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Booking\\BookingDetailsDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Booking\\BookingDetailsDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Booking\\BookingDetailsDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Booking\\BookingDetailsDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABEAAAAAAAAAA==",
+              "Title": "BookingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Mappings\\BookingProfile.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\Mappings\\BookingProfile.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Mappings\\BookingProfile.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\Mappings\\BookingProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T15:54:22.92Z",
+              "WhenOpened": "2026-02-08T07:37:22.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "VehicleCompanyDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Vehicle\\VehicleCompanyDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Vehicle\\VehicleCompanyDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Vehicle\\VehicleCompanyDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Vehicle\\VehicleCompanyDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:37:30.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VehicleCreateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Vehicle\\VehicleCreateDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Vehicle\\VehicleCreateDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Vehicle\\VehicleCreateDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Vehicle\\VehicleCreateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:30:33.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserRegisterDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\User\\UserRegisterDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\User\\UserRegisterDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\User\\UserRegisterDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\User\\UserRegisterDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:27:30.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserLoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\User\\UserLoginDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\User\\UserLoginDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\User\\UserLoginDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\User\\UserLoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:27:47.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\User\\UserDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\User\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\User\\UserDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\User\\UserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:27:09.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SeatDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Booking\\SeatDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Booking\\SeatDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Booking\\SeatDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Booking\\SeatDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T16:01:47.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RecommendedRouteDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Recommendation\\RecommendedRouteDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Recommendation\\RecommendedRouteDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Recommendation\\RecommendedRouteDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Recommendation\\RecommendedRouteDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:09:00.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PopularVehicleDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Recommendation\\PopularVehicleDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Recommendation\\PopularVehicleDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Recommendation\\PopularVehicleDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Recommendation\\PopularVehicleDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:09:15.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "VehicleDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Search\\VehicleDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Search\\VehicleDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Search\\VehicleDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Search\\VehicleDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:24:10.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SearchRouteVehicleDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Search\\SearchRouteVehicleDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Search\\SearchRouteVehicleDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Search\\SearchRouteVehicleDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Search\\SearchRouteVehicleDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:20:31.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SearchRouteDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Search\\SearchRouteDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Search\\SearchRouteDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Search\\SearchRouteDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Search\\SearchRouteDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:17:32.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TopRouteDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Report\\TopRouteDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Report\\TopRouteDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Report\\TopRouteDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Report\\TopRouteDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:15:41.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RevenueReportDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Report\\RevenueReportDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Report\\RevenueReportDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Report\\RevenueReportDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Report\\RevenueReportDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:12:32.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DashboardReportDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Report\\DashboardReportDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Report\\DashboardReportDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Report\\DashboardReportDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Report\\DashboardReportDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T18:13:26.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "PaymentReadDTO.cs",
               "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Payment\\PaymentReadDTO.cs",
               "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Payment\\PaymentReadDTO.cs",
               "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Payment\\PaymentReadDTO.cs",
               "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Payment\\PaymentReadDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T17:57:59.863Z",
+              "WhenOpened": "2026-02-08T19:39:25.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 8,
               "Title": "PaymentCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Payment\\PaymentCreateDTO.cs",
               "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Payment\\PaymentCreateDTO.cs",
               "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Payment\\PaymentCreateDTO.cs",
               "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Payment\\PaymentCreateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T17:57:50.549Z",
+              "WhenOpened": "2026-02-08T19:39:23.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 10,
+              "Title": "VehicleInfoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Company\\VehicleInfoDTO.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Company\\VehicleInfoDTO.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Company\\VehicleInfoDTO.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Company\\VehicleInfoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T19:33:14.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CompanyVehicleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Company\\CompanyVehicleDTO.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Company\\CompanyVehicleDTO.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Company\\CompanyVehicleDTO.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Company\\CompanyVehicleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T19:33:11.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CompanyReadDTO.cs",
               "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Company\\CompanyReadDTO.cs",
               "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Company\\CompanyReadDTO.cs",
               "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Company\\CompanyReadDTO.cs",
               "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Company\\CompanyReadDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T17:54:34.796Z",
+              "WhenOpened": "2026-02-08T19:33:10.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CompanyCreateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Company\\CompanyCreateDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Company\\CompanyCreateDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Company\\CompanyCreateDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Company\\CompanyCreateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T17:53:14.19Z",
+              "WhenOpened": "2026-02-08T13:55:35.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ChangeBookingStatusDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Booking\\ChangeBookingStatusDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Booking\\ChangeBookingStatusDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Booking\\ChangeBookingStatusDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Booking\\ChangeBookingStatusDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "DataAccessFactory.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\DataAccessFactory.cs",
+              "RelativeDocumentMoniker": "TicketBooking.DAL\\DataAccessFactory.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\DataAccessFactory.cs",
+              "RelativeToolTip": "TicketBooking.DAL\\DataAccessFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T15:54:48.795Z",
+              "WhenOpened": "2026-02-08T18:58:42.834Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "BookingReadDTO.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Booking\\BookingReadDTO.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Booking\\BookingReadDTO.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Booking\\BookingReadDTO.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Booking\\BookingReadDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "TicketBooking.DAL\\Repos\\BookingRepository.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\BookingRepository.cs",
+              "RelativeToolTip": "TicketBooking.DAL\\Repos\\BookingRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T15:54:13.268Z",
+              "WhenOpened": "2026-02-08T05:01:34.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\Payment.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Entities\\Payment.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\Payment.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Entities\\Payment.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T04:12:51.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\Booking.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Entities\\Booking.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\Booking.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Entities\\Booking.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAiwDAAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T04:11:42.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "BookingSeat.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\BookingSeat.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Entities\\BookingSeat.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\BookingSeat.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Entities\\BookingSeat.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T04:12:25.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "RoutRepository.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\RoutRepository.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Repos\\RoutRepository.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\RoutRepository.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Repos\\RoutRepository.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwFsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T06:28:40.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ReportRepository.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\ReportRepository.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Repos\\ReportRepository.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\ReportRepository.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Repos\\ReportRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAowCwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T06:28:28.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 18,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\UserRepository.cs",
               "RelativeDocumentMoniker": "TicketBooking.DAL\\Repos\\UserRepository.cs",
               "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\UserRepository.cs",
               "RelativeToolTip": "TicketBooking.DAL\\Repos\\UserRepository.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAADwvzIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T06:28:49.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "VehicleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\VehicleRepository.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Repos\\VehicleRepository.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\VehicleRepository.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Repos\\VehicleRepository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T06:29:05.613Z",
+              "WhenOpened": "2026-02-08T05:06:18.387Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "IVehicleFeature.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IVehicleFeature.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Interfaces\\IVehicleFeature.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IVehicleFeature.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Interfaces\\IVehicleFeature.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "RouteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\RouteRepository.cs",
+              "RelativeDocumentMoniker": "TicketBooking.DAL\\Repos\\RouteRepository.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\RouteRepository.cs",
+              "RelativeToolTip": "TicketBooking.DAL\\Repos\\RouteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T05:51:49.328Z"
+              "WhenOpened": "2026-02-08T05:06:05.094Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 14,
+              "Title": "AllMappings.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\AllMappings.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\AllMappings.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\AllMappings.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\AllMappings.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswEUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T06:57:36.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Interfaces\\IBookingService.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\Interfaces\\IBookingService.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Interfaces\\IBookingService.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\Interfaces\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T13:54:02.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Vehicle.cs",
               "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\Vehicle.cs",
               "RelativeDocumentMoniker": "TicketBooking.DAL\\Entities\\Vehicle.cs",
               "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\Vehicle.cs",
               "RelativeToolTip": "TicketBooking.DAL\\Entities\\Vehicle.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAUwCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T04:13:52.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\User.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Entities\\User.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA+wB0AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T04:13:41.589Z",
+              "WhenOpened": "2026-02-08T19:16:32.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "TopRouteResult.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\TopRouteResult.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Entities\\TopRouteResult.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\TopRouteResult.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Entities\\TopRouteResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T04:13:29.708Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 20,
               "Title": "RecommendationRepository.cs",
               "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\RecommendationRepository.cs",
               "RelativeDocumentMoniker": "TicketBooking.DAL\\Repos\\RecommendationRepository.cs",
               "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\RecommendationRepository.cs",
               "RelativeToolTip": "TicketBooking.DAL\\Repos\\RecommendationRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAswCkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T06:28:13.462Z"
+              "WhenOpened": "2026-02-08T05:05:41.013Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 21,
+              "Title": "ReportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\ReportRepository.cs",
+              "RelativeDocumentMoniker": "TicketBooking.DAL\\Repos\\ReportRepository.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\ReportRepository.cs",
+              "RelativeToolTip": "TicketBooking.DAL\\Repos\\ReportRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T05:05:51.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VehicleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\VehicleRepository.cs",
+              "RelativeDocumentMoniker": "TicketBooking.DAL\\Repos\\VehicleRepository.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\VehicleRepository.cs",
+              "RelativeToolTip": "TicketBooking.DAL\\Repos\\VehicleRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T05:06:37.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "PaymentRepository.cs",
               "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\PaymentRepository.cs",
               "RelativeDocumentMoniker": "TicketBooking.DAL\\Repos\\PaymentRepository.cs",
               "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\PaymentRepository.cs",
               "RelativeToolTip": "TicketBooking.DAL\\Repos\\PaymentRepository.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwDoAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T06:27:46.198Z"
+              "WhenOpened": "2026-02-08T05:05:25.223Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "DatabaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\DatabaseRepository.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Repos\\DatabaseRepository.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\DatabaseRepository.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Repos\\DatabaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T06:21:06.767Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 24,
               "Title": "CompanyRepository.cs",
               "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\CompanyRepository.cs",
               "RelativeDocumentMoniker": "TicketBooking.DAL\\Repos\\CompanyRepository.cs",
               "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Repos\\CompanyRepository.cs",
               "RelativeToolTip": "TicketBooking.DAL\\Repos\\CompanyRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAgwDkAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T19:06:12.762Z"
+              "WhenOpened": "2026-02-08T05:04:37.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "IUserFeature.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IUserFeature.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Interfaces\\IUserFeature.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IUserFeature.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Interfaces\\IUserFeature.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T05:53:02.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "ISearchFeature.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\ISearchFeature.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Interfaces\\ISearchFeature.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\ISearchFeature.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Interfaces\\ISearchFeature.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T05:52:59.767Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "IReportFeature.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IReportFeature.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Interfaces\\IReportFeature.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IReportFeature.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Interfaces\\IReportFeature.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T05:50:21.973Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IRepository.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Interfaces\\IRepository.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IRepository.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T05:48:08.163Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "IBookingFeature.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IBookingFeature.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Interfaces\\IBookingFeature.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IBookingFeature.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Interfaces\\IBookingFeature.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T05:48:41.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "IRecommendationFeature.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IRecommendationFeature.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Interfaces\\IRecommendationFeature.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IRecommendationFeature.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Interfaces\\IRecommendationFeature.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T05:50:30.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 25,
               "Title": "TicketBookingDBContext.cs",
               "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\TicketBookingDBContext.cs",
               "RelativeDocumentMoniker": "TicketBooking.DAL\\Entities\\TicketBookingDBContext.cs",
               "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\TicketBookingDBContext.cs",
               "RelativeToolTip": "TicketBooking.DAL\\Entities\\TicketBookingDBContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAJcAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAgwNsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T16:32:10.947Z"
+              "WhenOpened": "2026-02-08T15:45:40.494Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "IPaymentFeature.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IPaymentFeature.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Interfaces\\IPaymentFeature.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IPaymentFeature.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Interfaces\\IPaymentFeature.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 28,
+              "Title": "BookingCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Booking\\BookingCreateDTO.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Booking\\BookingCreateDTO.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Booking\\BookingCreateDTO.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Booking\\BookingCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T05:49:03.107Z"
+              "WhenOpened": "2026-02-08T15:25:16.635Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "ICompanyFeature.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\ICompanyFeature.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Interfaces\\ICompanyFeature.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\ICompanyFeature.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Interfaces\\ICompanyFeature.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 27,
+              "Title": "IBookingFeature.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IBookingFeature.cs",
+              "RelativeDocumentMoniker": "TicketBooking.DAL\\Interfaces\\IBookingFeature.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IBookingFeature.cs",
+              "RelativeToolTip": "TicketBooking.DAL\\Interfaces\\IBookingFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T05:48:56.251Z"
+              "WhenOpened": "2026-02-08T04:59:13.636Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 26,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.API\\Program.cs",
               "RelativeDocumentMoniker": "TicketBooking.API\\Program.cs",
               "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.API\\Program.cs",
               "RelativeToolTip": "TicketBooking.API\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T17:18:06.633Z"
+              "WhenOpened": "2026-02-08T07:46:39.932Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.API\\appsettings.json",
-              "RelativeDocumentMoniker": "TicketBooking.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.API\\appsettings.json",
-              "RelativeToolTip": "TicketBooking.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-05T17:14:32.288Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Enum.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\Enum.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Entities\\Enum.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\Enum.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Entities\\Enum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 29,
+              "Title": "PopularVehicleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Recommendation\\PopularVehicleDTO.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Recommendation\\PopularVehicleDTO.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Recommendation\\PopularVehicleDTO.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Recommendation\\PopularVehicleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T05:53:51.005Z"
+              "WhenOpened": "2026-02-08T13:59:30.866Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 30,
+              "Title": "RecommendedRouteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Recommendation\\RecommendedRouteDTO.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Recommendation\\RecommendedRouteDTO.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Recommendation\\RecommendedRouteDTO.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Recommendation\\RecommendedRouteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T13:59:37.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RecommendationProfile.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Mappings\\RecommendationProfile.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\Mappings\\RecommendationProfile.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Mappings\\RecommendationProfile.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\Mappings\\RecommendationProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T07:43:44.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ReportProfile.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Mappings\\ReportProfile.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\Mappings\\ReportProfile.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Mappings\\ReportProfile.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\Mappings\\ReportProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T07:43:33.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SearchProfile.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Mappings\\SearchProfile.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\Mappings\\SearchProfile.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Mappings\\SearchProfile.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\Mappings\\SearchProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T07:43:17.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Mappings\\UserProfile.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\Mappings\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Mappings\\UserProfile.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\Mappings\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T07:43:05.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "VehicleProfile.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Mappings\\VehicleProfile.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\Mappings\\VehicleProfile.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Mappings\\VehicleProfile.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\Mappings\\VehicleProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T07:42:52.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PaymentProfile.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Mappings\\PaymentProfile.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\Mappings\\PaymentProfile.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Mappings\\PaymentProfile.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\Mappings\\PaymentProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T07:41:56.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CompanyProfile.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Mappings\\CompanyProfile.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\Mappings\\CompanyProfile.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Mappings\\CompanyProfile.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\Mappings\\CompanyProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T07:43:55.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "Seat.cs",
               "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\Seat.cs",
               "RelativeDocumentMoniker": "TicketBooking.DAL\\Entities\\Seat.cs",
               "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\Seat.cs",
               "RelativeToolTip": "TicketBooking.DAL\\Entities\\Seat.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADwvxwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T04:13:16.985Z"
+              "WhenOpened": "2026-02-08T06:48:27.696Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "Route.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\Route.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Entities\\Route.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\Route.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Entities\\Route.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T04:13:06.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "Company.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\Company.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Entities\\Company.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\Company.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Entities\\Company.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T04:12:38.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Class1.cs",
-              "RelativeDocumentMoniker": "TicketBooking.DAL\\Class1.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Class1.cs",
-              "RelativeToolTip": "TicketBooking.DAL\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T03:30:49.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Class1.cs",
-              "RelativeDocumentMoniker": "TicketBooking.BLL\\Class1.cs",
-              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\Class1.cs",
-              "RelativeToolTip": "TicketBooking.BLL\\Class1.cs",
+              "DocumentIndex": 40,
+              "Title": "SeatDTO.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Booking\\SeatDTO.cs",
+              "RelativeDocumentMoniker": "TicketBooking.BLL\\DTOs\\Booking\\SeatDTO.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.BLL\\DTOs\\Booking\\SeatDTO.cs",
+              "RelativeToolTip": "TicketBooking.BLL\\DTOs\\Booking\\SeatDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T03:30:06.026Z"
+              "WhenOpened": "2026-02-08T06:47:43.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BookingSeat.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\BookingSeat.cs",
+              "RelativeDocumentMoniker": "TicketBooking.DAL\\Entities\\BookingSeat.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Entities\\BookingSeat.cs",
+              "RelativeToolTip": "TicketBooking.DAL\\Entities\\BookingSeat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T06:46:55.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IVehicleFeature.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IVehicleFeature.cs",
+              "RelativeDocumentMoniker": "TicketBooking.DAL\\Interfaces\\IVehicleFeature.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IVehicleFeature.cs",
+              "RelativeToolTip": "TicketBooking.DAL\\Interfaces\\IVehicleFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T05:00:24.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IUserFeature.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IUserFeature.cs",
+              "RelativeDocumentMoniker": "TicketBooking.DAL\\Interfaces\\IUserFeature.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IUserFeature.cs",
+              "RelativeToolTip": "TicketBooking.DAL\\Interfaces\\IUserFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T05:00:14.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ISearchFeature.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\ISearchFeature.cs",
+              "RelativeDocumentMoniker": "TicketBooking.DAL\\Interfaces\\ISearchFeature.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\ISearchFeature.cs",
+              "RelativeToolTip": "TicketBooking.DAL\\Interfaces\\ISearchFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T05:00:05.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IReportFeature.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IReportFeature.cs",
+              "RelativeDocumentMoniker": "TicketBooking.DAL\\Interfaces\\IReportFeature.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IReportFeature.cs",
+              "RelativeToolTip": "TicketBooking.DAL\\Interfaces\\IReportFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T04:59:55.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IRecommendationFeature.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IRecommendationFeature.cs",
+              "RelativeDocumentMoniker": "TicketBooking.DAL\\Interfaces\\IRecommendationFeature.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IRecommendationFeature.cs",
+              "RelativeToolTip": "TicketBooking.DAL\\Interfaces\\IRecommendationFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T04:59:44.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IPaymentFeature.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IPaymentFeature.cs",
+              "RelativeDocumentMoniker": "TicketBooking.DAL\\Interfaces\\IPaymentFeature.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IPaymentFeature.cs",
+              "RelativeToolTip": "TicketBooking.DAL\\Interfaces\\IPaymentFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T04:59:37.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ICompanyFeature.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\ICompanyFeature.cs",
+              "RelativeDocumentMoniker": "TicketBooking.DAL\\Interfaces\\ICompanyFeature.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\ICompanyFeature.cs",
+              "RelativeToolTip": "TicketBooking.DAL\\Interfaces\\ICompanyFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T04:59:24.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "TicketBooking.DAL\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\islam\\Downloads\\Dot .NET Core Project\\TicketBookingSystem\\TicketBooking.DAL\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "TicketBooking.DAL\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T04:58:13.035Z",
+              "EditorCaption": ""
             }
           ]
         }

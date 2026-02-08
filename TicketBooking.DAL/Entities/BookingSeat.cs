@@ -10,13 +10,9 @@ namespace TicketBooking.DAL.Entities
     public class BookingSeat
     {
         public int Id { get; set; }
-
-
         [ForeignKey("Booking")]
         public int BookingId { get; set; }
         public virtual Booking Booking { get; set; }
-
-
         [ForeignKey("Seat")]
         public int SeatId { get; set; }
         public virtual Seat Seat { get; set; }

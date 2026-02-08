@@ -9,8 +9,15 @@ using TicketBooking.DAL.Interfaces;
 
 namespace TicketBooking.DAL.Repos
 {
-    internal class ReportRepository : DatabaseRepository, IReportFeature
+    internal class ReportRepository : IReportFeature
     {
+
+        private readonly TicketBookingDBContext _db;
+        public ReportRepository(TicketBookingDBContext db)
+        {
+            _db = db;
+        }
+
         // Get total number of bookings
         public async Task<int> GetTotalBookingsAsync()
         {

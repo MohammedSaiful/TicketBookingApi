@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TicketBooking.BLL.DTOs.Recommendation
 {
-    internal class PopularVehicleDTO
+    public class PopularVehicleDTO
     {
         public int Id { get; set; }
         public string Type { get; set; }

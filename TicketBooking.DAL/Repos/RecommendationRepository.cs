@@ -9,8 +9,14 @@ using TicketBooking.DAL.Interfaces;
 
 namespace TicketBooking.DAL.Repos
 {
-    internal class RecommendationRepository : DatabaseRepository, IRecommendationFeature
+    internal class RecommendationRepository : IRecommendationFeature
     {
+        private readonly TicketBookingDBContext _db;
+        public RecommendationRepository(TicketBookingDBContext db)
+        {
+            _db = db;
+        }
+
         // Top routes based on number of bookings
         public async Task<List<Route>> GetTopRoutesAsync()
         {

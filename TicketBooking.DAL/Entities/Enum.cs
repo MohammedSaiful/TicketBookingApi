@@ -6,22 +6,18 @@ using System.Threading.Tasks;
 
 namespace TicketBooking.DAL.Entities
 {
-
     public enum BookingStatus
     {
         Pending,
         Confirmed,
         Cancelled
     }
-
-
     public enum PaymentStatus
     {
         Paid,
         Failed,
         Refunded
     }
-
     public enum UserRole
     {
         Admin,

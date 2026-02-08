@@ -10,15 +10,11 @@ namespace TicketBooking.DAL.Entities
     public class Company
     {
         public int Id { get; set; }
-
         [Required]
         [StringLength(100)]
         public string Name { get; set; }
-
         public virtual ICollection<Vehicle> Vehicles { get; set; }
-
         public Company() {
-        
             Vehicles = new List<Vehicle>();
         }
     }

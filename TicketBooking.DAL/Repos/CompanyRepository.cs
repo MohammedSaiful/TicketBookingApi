@@ -9,8 +9,14 @@ using TicketBooking.DAL.Interfaces;
 
 namespace TicketBooking.DAL.Repos
 {
-    internal class CompanyRepository : DatabaseRepository, ICompanyFeature
+    internal class CompanyRepository : ICompanyFeature
     {
+        private readonly TicketBookingDBContext _db;
+        public CompanyRepository(TicketBookingDBContext db)
+        {
+            _db = db;
+        }
+
         // Create a new company
         public async Task<bool> CreateAsync(Company entity)
         {

@@ -9,8 +9,14 @@ using TicketBooking.DAL.Interfaces;
 
 namespace TicketBooking.DAL.Repos
 {
-    internal class RoutRepository : DatabaseRepository, ISearchFeature
+    internal class RouteRepository : ISearchFeature
     {
+        private readonly TicketBookingDBContext _db;
+        public RouteRepository(TicketBookingDBContext db)
+        {
+            _db = db;
+        }
+
         // Create a new Route
         public async Task<bool> CreateAsync(Route entity)
         {

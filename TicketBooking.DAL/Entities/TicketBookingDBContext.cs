@@ -10,11 +10,10 @@ namespace TicketBooking.DAL.Entities
     public class TicketBookingDBContext : DbContext
     {
 
-        // Parameterless constructor for EF Core design-time
-        public TicketBookingDBContext()
-        {
-        }
-
+        //// Parameterless constructor for EF Core design-time
+        //public TicketBookingDBContext()
+        //{
+        //}
         public TicketBookingDBContext(DbContextOptions<TicketBookingDBContext> options) 
             : base(options) 
         {
@@ -30,15 +29,14 @@ namespace TicketBooking.DAL.Entities
         public DbSet<BookingSeat> BookingSeats { get; set; }
         public DbSet<Payment> Payments { get; set; }
 
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            // Only configure if options not already set (so DI still works)
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("Server=.;Database=TicketBookingDB;Trusted_Connection=True;TrustServerCertificate=True;");
-            }
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    // Only configure if options not already set (so DI still works)
+        //    if (!optionsBuilder.IsConfigured)
+        //    {
+        //        optionsBuilder.UseSqlServer("Server=.;Database=TicketBookingDB;Trusted_Connection=True;TrustServerCertificate=True;");
+        //    }
+        //}
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

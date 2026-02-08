@@ -9,8 +9,14 @@ using TicketBooking.DAL.Interfaces;
 
 namespace TicketBooking.DAL.Repos
 {
-    internal class BookingRepository : DatabaseRepository, IBookingFeature
+    internal class BookingRepository : IBookingFeature
     {
+
+        private readonly TicketBookingDBContext _db;
+        public BookingRepository(TicketBookingDBContext db)
+        {
+            _db = db;
+        }
 
         // Creating a booking without seats
         public async Task<bool> CreateAsync(Booking obj)
@@ -18,20 +24,16 @@ namespace TicketBooking.DAL.Repos
             _db.Bookings.Add(obj);
             return await _db.SaveChangesAsync() > 0;
         }
-
         // Get all bookings
         public async Task<List<Booking>> GetAllAsync()
         {
             return await _db.Bookings.ToListAsync();
         }
-
-
         // Get booking by id
         public async Task<Booking?> GetAsync(int id)
         {
             return await _db.Bookings.FindAsync(id);
         }
-
         // Update booking
         public async Task<bool> UpdateAsync(Booking obj)
         {
@@ -41,8 +43,6 @@ namespace TicketBooking.DAL.Repos
             _db.Entry(exist).CurrentValues.SetValues(obj);
             return await _db.SaveChangesAsync() > 0;
         }
-
-
         // Delete booking
         public async Task<bool> DeleteAsync(int id)
         {
@@ -52,8 +52,6 @@ namespace TicketBooking.DAL.Repos
             _db.Bookings.Remove(booking);
             return await _db.SaveChangesAsync() > 0;
         }
-
-
         // Get all bookings with seats
         public async Task<List<Booking>> GetAllWithSeatsAsync()
         {
@@ -62,7 +60,6 @@ namespace TicketBooking.DAL.Repos
                     .ThenInclude(bs => bs.Seat)
                 .ToListAsync();
         }
-
         // Get bookings by user with seats
         public async Task<List<Booking>> GetByUserAsync(int userId)
         {
@@ -82,7 +79,6 @@ namespace TicketBooking.DAL.Repos
             //var seatIds = bookingSeats.Select(bs => bs.SeatId).ToList(); 
             //var seats = await (from s in _db.Seats where seatIds.Contains(s.Id) select s).ToListAsync();
         }
-
         // Get booking with seats
         public async Task<Booking?> GetWithSeatsAsync(int bookingId)
         {
@@ -91,8 +87,6 @@ namespace TicketBooking.DAL.Repos
                     .ThenInclude(bs => bs.Seat)
                 .FirstOrDefaultAsync(b => b.Id == bookingId);
         }
-
-
         // Change booking status
         public async Task<bool> ChangeStatusAsync(int bookingId, BookingStatus status)
         {
@@ -102,13 +96,10 @@ namespace TicketBooking.DAL.Repos
             booking.Status = status;
             return await _db.SaveChangesAsync() > 0;
         }
-
-
         // Create booking with seats 
         public async Task<Booking> CreateBookingWithSeatsAsync(Booking booking, List<int> seatIds)
         {
             using var transaction = await _db.Database.BeginTransactionAsync();
-
             try
             {
                 booking.BookingDate = DateTime.Now;
@@ -149,8 +140,5 @@ namespace TicketBooking.DAL.Repos
                 throw;
             }
         }
-
-
-
     }
 }

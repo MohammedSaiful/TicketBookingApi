@@ -9,8 +9,14 @@ using TicketBooking.DAL.Interfaces;
 
 namespace TicketBooking.DAL.Repos
 {
-    internal class UserRepository : DatabaseRepository, IUserFeature
+    internal class UserRepository : IUserFeature
     {
+        private readonly TicketBookingDBContext _db;
+        public UserRepository(TicketBookingDBContext db)
+        {
+            _db = db;
+        }
+
         // Create a new User
         public async Task<bool> CreateAsync(User entity)
         {
