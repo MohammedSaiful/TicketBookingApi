@@ -9,6 +9,7 @@ namespace TicketBooking.API.Controllers
     [ApiController]
     public class BookingController : ControllerBase
     {
+
         private readonly IBookingService _service;
 
         public BookingController(IBookingService service)
@@ -16,92 +17,125 @@ namespace TicketBooking.API.Controllers
             _service = service;
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> Get(int id)
-        {
-            var data = await _service.GetAsync(id);
-
-            if (data == null)
-            {
-                return NotFound();
-            }
-            else
-            {
-                return Ok(data);
-            }
-        }
-
+        // GET: api/booking
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<ActionResult<List<BookingReadDTO>>> GetAll()
         {
-            var list = await _service.GetAllAsync();
-            return Ok(list);
+            var bookings = await _service.GetAllAsync();
+
+            if (bookings == null || bookings.Count == 0)
+            {
+                return NotFound("No bookings found.");
+            }
+            else
+            {
+                return Ok(bookings);
+            }
         }
 
+        // GET: api/booking/{id}
+        [HttpGet("{id}")]
+        public async Task<ActionResult<BookingReadDTO>> Get(int id)
+        {
+            var booking = await _service.GetAsync(id);
+
+            if (booking == null)
+            {
+                return NotFound("Booking not found.");
+            }
+            else
+            {
+                return Ok(booking);
+            }
+        }
+
+        // GET: api/booking/user/{userId}
         [HttpGet("user/{userId}")]
-        public async Task<IActionResult> GetByUser(int userId)
+        public async Task<ActionResult<List<BookingReadDTO>>> GetByUser(int userId)
         {
-            var list = await _service.GetByUserAsync(userId);
-            return Ok(list);
+            var bookings = await _service.GetByUserAsync(userId);
+
+            if (bookings == null || bookings.Count == 0)
+            {
+                return NotFound("No bookings found for this user.");
+            }
+            else
+            {
+                return Ok(bookings);
+            }
         }
 
+        // GET: api/booking/details/{bookingId}
         [HttpGet("details/{bookingId}")]
-        public async Task<IActionResult> GetDetails(int bookingId)
+        public async Task<ActionResult<BookingDetailsDTO>> GetDetails(int bookingId)
         {
-            var data = await _service.GetDetailsAsync(bookingId);
+            var booking = await _service.GetDetailsAsync(bookingId);
 
-            if (data == null)
+            if (booking == null)
             {
-                return NotFound();
+                return NotFound("Booking details not found.");
             }
             else
             {
-                return Ok(data);
+                return Ok(booking);
             }
         }
 
+        // POST: api/booking
         [HttpPost]
-        public async Task<IActionResult> Create(BookingCreateDTO dto)
+        public async Task<ActionResult> Create(BookingCreateDTO dto)
         {
-            var result = await _service.CreateAsync(dto);
-
-            if (result)
+            if (dto == null)
             {
-                return Ok("Created");
+                return BadRequest("Invalid booking data.");
+            }
+
+            var success = await _service.CreateAsync(dto);
+
+            if (success == false)
+            {
+                return BadRequest("Booking creation failed.");
             }
             else
             {
-                return BadRequest();
+                return Ok("Booking created successfully.");
             }
         }
 
-        [HttpPatch("status")]
-        public async Task<IActionResult> ChangeStatus(ChangeBookingStatusDTO dto)
+        // PUT: api/booking/status
+        [HttpPut("status")]
+        public async Task<ActionResult> ChangeStatus(ChangeBookingStatusDTO dto)
         {
-            var result = await _service.ChangeStatusAsync(dto);
-
-            if (result)
+            if (dto == null)
             {
-                return Ok("Updated");
+                return BadRequest("Invalid status data.");
+            }
+
+            var success = await _service.ChangeStatusAsync(dto);
+
+            if (success == false)
+            {
+                return NotFound("Booking not found or status change failed.");
             }
             else
             {
-                return BadRequest();
+                return Ok("Booking status updated successfully.");
             }
         }
 
+        // DELETE: api/booking/{id}
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
-            var result = await _service.DeleteAsync(id);
+            var success = await _service.DeleteAsync(id);
 
-            if (result)
+            if (success == false)
             {
-                return Ok("Deleted");
+                return NotFound("Booking not found or delete failed.");
             }
             else
             {
-                return NotFound();
+                return Ok("Booking deleted successfully.");
             }
         }
     }

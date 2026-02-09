@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TicketBooking.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c89f6386bc2fc18ede427239195d096b82e8c567")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4078cd064920d24454897f5150103da9951fa8be")]
 [assembly: System.Reflection.AssemblyProductAttribute("TicketBooking.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TicketBooking.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

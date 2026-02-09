@@ -16,63 +16,110 @@ namespace TicketBooking.API.Controllers
             _service = service;
         }
 
+        // GET: api/payment
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<ActionResult<List<PaymentReadDTO>>> GetAll()
         {
-            var list = await _service.GetAllAsync();
-            return Ok(list);
+            var payments = await _service.GetAllAsync();
+
+            if (payments == null || payments.Count == 0)
+            {
+                return NotFound("No payments found.");
+            }
+            else
+            {
+                return Ok(payments);
+            }
         }
 
+        // GET: api/payment/{id}
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(int id)
+        public async Task<ActionResult<PaymentReadDTO>> Get(int id)
         {
-            var data = await _service.GetAsync(id);
+            var payment = await _service.GetAsync(id);
 
-            if (data == null)
+            if (payment == null)
             {
-                return NotFound();
+                return NotFound("Payment not found.");
             }
             else
             {
-                return Ok(data);
+                return Ok(payment);
             }
         }
 
+        // POST: api/payment
         [HttpPost]
-        public async Task<IActionResult> Create(PaymentCreateDTO dto)
+        public async Task<ActionResult> Create(PaymentCreateDTO dto)
         {
-            var result = await _service.CreateAsync(dto);
-
-            if (result == true)
+            if (dto == null)
             {
-                return Ok("Created");
+                return BadRequest("Invalid payment data.");
+            }
+
+            var success = await _service.CreateAsync(dto);
+
+            if (success == false)
+            {
+                return BadRequest("Payment creation failed.");
             }
             else
             {
-                return BadRequest();
+                return Ok("Payment created successfully.");
             }
         }
 
+        // PUT: api/payment/{id}
+        [HttpPut("{id}")]
+        public async Task<ActionResult> Update(int id, PaymentCreateDTO dto)
+        {
+            if (dto == null)
+            {
+                return BadRequest("Invalid payment data.");
+            }
+
+            var success = await _service.UpdateAsync(id, dto);
+
+            if (success == false)
+            {
+                return NotFound("Payment update failed or payment not found.");
+            }
+            else
+            {
+                return Ok("Payment updated successfully.");
+            }
+        }
+
+        // DELETE: api/payment/{id}
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
-            var result = await _service.DeleteAsync(id);
+            var success = await _service.DeleteAsync(id);
 
-            if (result == true)
+            if (success == false)
             {
-                return Ok("Deleted");
+                return NotFound("Payment not found or delete failed.");
             }
             else
             {
-                return NotFound();
+                return Ok("Payment deleted successfully.");
             }
         }
 
+        // GET: api/payment/revenue
         [HttpGet("revenue")]
-        public async Task<IActionResult> GetRevenue()
+        public async Task<ActionResult<decimal>> GetTotalRevenue()
         {
             var revenue = await _service.GetTotalRevenueAsync();
-            return Ok(revenue);
+
+            if (revenue <= 0)
+            {
+                return Ok(0);
+            }
+            else
+            {
+                return Ok(revenue);
+            }
         }
     }
 }

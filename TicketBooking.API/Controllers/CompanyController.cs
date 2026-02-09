@@ -16,85 +16,109 @@ namespace TicketBooking.API.Controllers
             _service = service;
         }
 
+        // GET: api/company
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<ActionResult<List<CompanyReadDTO>>> GetAll()
         {
-            var list = await _service.GetAllAsync();
-            return Ok(list);
+            var companies = await _service.GetAllAsync();
+
+            if (companies == null || companies.Count == 0)
+            {
+                return NotFound("No companies found.");
+            }
+            else
+            {
+                return Ok(companies);
+            }
         }
 
+        // GET: api/company/{id}
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(int id)
+        public async Task<ActionResult<CompanyReadDTO>> Get(int id)
         {
-            var data = await _service.GetAsync(id);
+            var company = await _service.GetAsync(id);
 
-            if (data == null)
+            if (company == null)
             {
-                return NotFound();
+                return NotFound("Company not found.");
             }
             else
             {
-                return Ok(data);
+                return Ok(company);
             }
         }
 
-        [HttpGet("{id}/vehicles")]
-        public async Task<IActionResult> GetWithVehicles(int id)
+        // GET: api/company/vehicles/{companyId}
+        [HttpGet("vehicles/{companyId}")]
+        public async Task<ActionResult<CompanyVehicleDTO>> GetWithVehicles(int companyId)
         {
-            var data = await _service.GetWithVehiclesAsync(id);
+            var company = await _service.GetWithVehiclesAsync(companyId);
 
-            if (data == null)
+            if (company == null)
             {
-                return NotFound();
+                return NotFound("Company not found or no vehicles available.");
             }
             else
             {
-                return Ok(data);
+                return Ok(company);
             }
         }
 
+        // POST: api/company
         [HttpPost]
-        public async Task<IActionResult> Create(CompanyCreateDTO dto)
+        public async Task<ActionResult> Create(CompanyCreateDTO dto)
         {
-            var result = await _service.CreateAsync(dto);
-
-            if (result)
+            if (dto == null)
             {
-                return Ok("Created");
+                return BadRequest("Invalid company data.");
+            }
+
+            var success = await _service.CreateAsync(dto);
+
+            if (success == false)
+            {
+                return BadRequest("Company creation failed.");
             }
             else
             {
-                return BadRequest();
+                return Ok("Company created successfully.");
             }
         }
 
+        // PUT: api/company/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, CompanyCreateDTO dto)
+        public async Task<ActionResult> Update(int id, CompanyCreateDTO dto)
         {
-            var result = await _service.UpdateAsync(id, dto);
-
-            if (result)
+            if (dto == null)
             {
-                return Ok("Updated");
+                return BadRequest("Invalid company data.");
+            }
+
+            var success = await _service.UpdateAsync(id, dto);
+
+            if (success == false)
+            {
+                return NotFound("Company update failed or company not found.");
             }
             else
             {
-                return NotFound();
+                return Ok("Company updated successfully.");
             }
         }
 
+        // DELETE: api/company/{id}
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
-            var result = await _service.DeleteAsync(id);
+            var success = await _service.DeleteAsync(id);
 
-            if (result)
+            if (success == false)
             {
-                return Ok("Deleted");
+                return NotFound("Company not found or delete failed.");
             }
             else
             {
-                return NotFound();
+                return Ok("Company deleted successfully.");
             }
         }
     }
