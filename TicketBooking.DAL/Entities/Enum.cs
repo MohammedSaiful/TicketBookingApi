@@ -16,7 +16,8 @@ namespace TicketBooking.DAL.Entities
     {
         Paid,
         Failed,
-        Refunded
+        Refunded,
+        Pending
     }
     public enum UserRole
     {

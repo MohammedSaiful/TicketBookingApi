@@ -1,8 +1,10 @@
-using Microsoft.EntityFrameworkCore;
-using TicketBooking.BLL.Mappings;
-using TicketBooking.DAL.Entities;
-using TicketBooking.DAL;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore;
+using TicketBooking.BLL.Interfaces;
+using TicketBooking.BLL.Mappings;
+using TicketBooking.BLL.Services;
+using TicketBooking.DAL;
+using TicketBooking.DAL.Entities;
 
 
 
@@ -22,6 +24,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<TicketBookingDBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// register DataAccessFactory
+builder.Services.AddScoped<DataAccessFactory>();
+
+
 //register automapper
 builder.Services.AddAutoMapper(
     typeof(BookingProfile).Assembly,
@@ -33,6 +39,18 @@ builder.Services.AddAutoMapper(
     typeof(UserProfile).Assembly,
     typeof(VehicleProfile).Assembly
     );
+
+
+// register services
+builder.Services.AddScoped<IBookingService, BookingService>();
+builder.Services.AddScoped<ICompanyService, CompanyService>();
+builder.Services.AddScoped<IPaymentService, PaymentService>();
+builder.Services.AddScoped<IRecommendationService, RecommendationService>();
+builder.Services.AddScoped<IReportService, ReportService>();
+builder.Services.AddScoped<ISearchService, SearchService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IVehicleService, VehicleService>();
+
 
 var app = builder.Build();
 
