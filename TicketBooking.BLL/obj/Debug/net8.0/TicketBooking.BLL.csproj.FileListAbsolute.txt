@@ -13,3 +13,4 @@ C:\Users\islam\Downloads\Dot .NET Core Project\TicketBookingSystem\TicketBooking
 C:\Users\islam\Downloads\Dot .NET Core Project\TicketBookingSystem\TicketBooking.BLL\obj\Debug\net8.0\refint\TicketBooking.BLL.dll
 C:\Users\islam\Downloads\Dot .NET Core Project\TicketBookingSystem\TicketBooking.BLL\obj\Debug\net8.0\TicketBooking.BLL.pdb
 C:\Users\islam\Downloads\Dot .NET Core Project\TicketBookingSystem\TicketBooking.BLL\obj\Debug\net8.0\ref\TicketBooking.BLL.dll
+C:\Users\islam\Downloads\Dot .NET Core Project\TicketBookingSystem\TicketBooking.BLL\obj\Debug\net8.0\TicketBooking.BLL.sourcelink.json

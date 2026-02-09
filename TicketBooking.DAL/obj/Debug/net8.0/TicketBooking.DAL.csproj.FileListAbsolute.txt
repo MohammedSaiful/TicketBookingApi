@@ -12,3 +12,4 @@ C:\Users\islam\Downloads\Dot .NET Core Project\TicketBookingSystem\TicketBooking
 C:\Users\islam\Downloads\Dot .NET Core Project\TicketBookingSystem\TicketBooking.DAL\obj\Debug\net8.0\TicketBooking.DAL.pdb
 C:\Users\islam\Downloads\Dot .NET Core Project\TicketBookingSystem\TicketBooking.DAL\obj\Debug\net8.0\TicketBooking.DAL.genruntimeconfig.cache
 C:\Users\islam\Downloads\Dot .NET Core Project\TicketBookingSystem\TicketBooking.DAL\obj\Debug\net8.0\ref\TicketBooking.DAL.dll
+C:\Users\islam\Downloads\Dot .NET Core Project\TicketBookingSystem\TicketBooking.DAL\obj\Debug\net8.0\TicketBooking.DAL.sourcelink.json
