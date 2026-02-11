@@ -11,9 +11,6 @@ namespace TicketBooking.BLL.Interfaces
     {
         Task<UserDTO?> GetAsync(int id);
         Task<List<UserDTO>> GetAllAsync();
-
-        Task<bool> RegisterAsync(UserRegisterDTO dto);
-        Task<UserDTO?> LoginAsync(UserLoginDTO dto);
         Task<bool> UpdateAsync(int id, UserRegisterDTO dto);
         Task<bool> DeleteAsync(int id);
 

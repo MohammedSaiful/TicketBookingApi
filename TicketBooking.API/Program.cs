@@ -5,7 +5,10 @@ using TicketBooking.BLL.Mappings;
 using TicketBooking.BLL.Services;
 using TicketBooking.DAL;
 using TicketBooking.DAL.Entities;
-
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.AspNetCore.Identity;
 
 
 
@@ -17,6 +20,32 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+//JWT Authentication
+var jwtkey = builder.Configuration["Jwt:Key"];
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme= JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+ {
+     var key = Encoding.UTF8.GetBytes(jwtkey);
+     options.TokenValidationParameters = new TokenValidationParameters
+     {
+         ValidateIssuer = true,
+         ValidateAudience = true,
+         ValidateLifetime = true,
+         ValidateIssuerSigningKey = true,
+
+         ValidIssuer = builder.Configuration["Jwt:Issuer"],
+         ValidAudience = builder.Configuration["Jwt:Audience"],
+         IssuerSigningKey = new SymmetricSecurityKey(key)
+     };
+ });
+builder.Services.AddAuthorization(); // For role-based auth
+
 
 
 
@@ -50,7 +79,8 @@ builder.Services.AddScoped<IReportService, ReportService>();
 builder.Services.AddScoped<ISearchService, SearchService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IVehicleService, VehicleService>();
-
+builder.Services.AddScoped<IAuth, AuthService>();
+builder.Services.AddScoped<IJwtService, JwtService>();
 
 var app = builder.Build();
 
@@ -63,6 +93,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// Enable authentication and authorization middleware
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

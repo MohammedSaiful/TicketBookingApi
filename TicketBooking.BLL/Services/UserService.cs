@@ -33,20 +33,6 @@ namespace TicketBooking.BLL.Services
             return _mapper.Map<List<UserDTO>>(users);
         }
 
-        public async Task<bool> RegisterAsync(UserRegisterDTO dto)
-        {
-            var entity = _mapper.Map<TicketBooking.DAL.Entities.User>(dto);
-            return await _factory.UserData().CreateAsync(entity);
-        }
-
-        public async Task<UserDTO?> LoginAsync(UserLoginDTO dto)
-        {
-            var user = (await _factory.UserData().GetAllAsync())
-                .FirstOrDefault(u => u.Email == dto.Email && u.Password == dto.Password);
-
-            return user == null ? null : _mapper.Map<UserDTO>(user);
-        }
-
         public async Task<bool> UpdateAsync(int id, UserRegisterDTO dto)
         {
             var user = await _factory.UserData().GetAsync(id);

@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TicketBooking.BLL.DTOs.Booking;
 using TicketBooking.BLL.Interfaces;
 
 namespace TicketBooking.API.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class BookingController : ControllerBase
@@ -19,6 +21,7 @@ namespace TicketBooking.API.Controllers
 
         // GET: api/booking
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<List<BookingReadDTO>>> GetAll()
         {
             var bookings = await _service.GetAllAsync();

@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "TicketBooking.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TicketBooking.BLL.DTOs.User.UserLoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketBooking.API.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TicketBooking.BLL.DTOs.User.UserRegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TicketBooking.API.Controllers.BookingController",
     "Method": "GetAll",
     "RelativePath": "api/Booking",
@@ -7,7 +39,17 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TicketBooking.BLL.DTOs.Booking.BookingReadDTO, TicketBooking.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "TicketBooking.API.Controllers.BookingController",
@@ -39,7 +81,17 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "TicketBooking.BLL.DTOs.Booking.BookingReadDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "TicketBooking.API.Controllers.BookingController",
@@ -71,13 +123,23 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "TicketBooking.BLL.DTOs.Booking.BookingDetailsDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "TicketBooking.API.Controllers.BookingController",
     "Method": "ChangeStatus",
     "RelativePath": "api/Booking/status",
-    "HttpMethod": "PATCH",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -103,7 +165,17 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TicketBooking.BLL.DTOs.Booking.BookingReadDTO, TicketBooking.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "TicketBooking.API.Controllers.CompanyController",
@@ -113,7 +185,17 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TicketBooking.BLL.DTOs.Company.CompanyReadDTO, TicketBooking.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "TicketBooking.API.Controllers.CompanyController",
@@ -145,7 +227,17 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "TicketBooking.BLL.DTOs.Company.CompanyReadDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "TicketBooking.API.Controllers.CompanyController",
@@ -187,18 +279,28 @@
   {
     "ContainingType": "TicketBooking.API.Controllers.CompanyController",
     "Method": "GetWithVehicles",
-    "RelativePath": "api/Company/{id}/vehicles",
+    "RelativePath": "api/Company/vehicles/{companyId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "companyId",
         "Type": "System.Int32",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "TicketBooking.BLL.DTOs.Company.CompanyVehicleDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "TicketBooking.API.Controllers.PaymentController",
@@ -208,7 +310,17 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TicketBooking.BLL.DTOs.Payment.PaymentReadDTO, TicketBooking.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "TicketBooking.API.Controllers.PaymentController",
@@ -240,6 +352,37 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": [
+      {
+        "Type": "TicketBooking.BLL.DTOs.Payment.PaymentReadDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TicketBooking.API.Controllers.PaymentController",
+    "Method": "Update",
+    "RelativePath": "api/Payment/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TicketBooking.BLL.DTOs.Payment.PaymentCreateDTO",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -260,13 +403,23 @@
   },
   {
     "ContainingType": "TicketBooking.API.Controllers.PaymentController",
-    "Method": "GetRevenue",
+    "Method": "GetTotalRevenue",
     "RelativePath": "api/Payment/revenue",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Decimal",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "TicketBooking.API.Controllers.RecommendationController",
@@ -287,6 +440,66 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TicketBooking.API.Controllers.ReportController",
+    "Method": "GetDashboard",
+    "RelativePath": "api/Report/dashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "TicketBooking.BLL.DTOs.Report.DashboardReportDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TicketBooking.API.Controllers.ReportController",
+    "Method": "GetTotalRevenue",
+    "RelativePath": "api/Report/revenue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Decimal",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TicketBooking.API.Controllers.ReportController",
+    "Method": "GetTopRoutes",
+    "RelativePath": "api/Report/top-routes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TicketBooking.BLL.DTOs.Report.TopRouteDTO, TicketBooking.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "TicketBooking.API.Controllers.SearchController",
@@ -312,7 +525,94 @@
         "IsRequired": false
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TicketBooking.BLL.DTOs.Search.VehicleDTO, TicketBooking.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TicketBooking.API.Controllers.SearchController",
+    "Method": "SearchByDate",
+    "RelativePath": "api/Search/by-date",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TicketBooking.BLL.DTOs.Search.SearchRouteVehicleDTO, TicketBooking.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TicketBooking.API.Controllers.SearchController",
+    "Method": "GetAllRoutes",
+    "RelativePath": "api/Search/routes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TicketBooking.BLL.DTOs.Search.SearchRouteDTO, TicketBooking.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TicketBooking.API.Controllers.SearchController",
+    "Method": "SearchWithVehicles",
+    "RelativePath": "api/Search/with-vehicles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "origin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "destination",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TicketBooking.BLL.DTOs.Search.SearchRouteVehicleDTO, TicketBooking.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "TicketBooking.API.Controllers.UserController",
@@ -372,38 +672,6 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TicketBooking.API.Controllers.UserController",
-    "Method": "Login",
-    "RelativePath": "api/User/login",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "TicketBooking.BLL.DTOs.User.UserLoginDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TicketBooking.API.Controllers.UserController",
-    "Method": "Register",
-    "RelativePath": "api/User/register",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "TicketBooking.BLL.DTOs.User.UserRegisterDTO",
         "IsRequired": true
       }
     ],
@@ -470,22 +738,6 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "TicketBooking.API.Controllers.VehicleController",
-    "Method": "Delete",
-    "RelativePath": "api/Vehicle/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   },
   {
     "ContainingType": "TicketBooking.API.Controllers.VehicleController",
