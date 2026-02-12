@@ -56,7 +56,7 @@ namespace TicketBooking.BLL.Services
                 return null;
             }
 
-            var access = _jwtService.GenerateToken(user.Id, user.Email);
+            var access = _jwtService.GenerateToken(user.Id, user.Email, user.Role.ToString());
             var refresh = _jwtService.GenerateRefreshToken(user.Id);
 
             await _factory.RefreshTokenData().CreateAsync(refresh);
@@ -86,7 +86,7 @@ namespace TicketBooking.BLL.Services
 
             var user = stored.User;
 
-            var newAccess = _jwtService.GenerateToken(user.Id, user.Email);
+            var newAccess = _jwtService.GenerateToken(user.Id, user.Email, user.Role.ToString());
 
             return new AuthResponseDTO
             {

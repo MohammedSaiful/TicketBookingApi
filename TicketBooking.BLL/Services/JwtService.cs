@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using AutoMapper;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -9,6 +10,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using TicketBooking.BLL.Interfaces;
+using TicketBooking.DAL;
 using TicketBooking.DAL.Entities;
 
 namespace TicketBooking.BLL.Services
@@ -16,25 +18,33 @@ namespace TicketBooking.BLL.Services
     public class JwtService: IJwtService
     {
         private readonly IConfiguration _config;
+        private readonly IMapper _mapper;
+        private readonly DataAccessFactory _factory;
 
-        public JwtService(IConfiguration config)
+        public JwtService(DataAccessFactory factory, IConfiguration config, IMapper mapper)
         {
             _config = config;
+            _mapper = mapper;
+            _factory = factory;
         }
 
         // Generate JWT token for authenticated user(access token)
-        public string GenerateToken(int userId, string email)
+        public string GenerateToken(int userId, string email, string role)
         {
+
             var key = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(_config["Jwt:Key"])
             );
 
+
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
 
             var claims = new[]
             {
                  new Claim(ClaimTypes.NameIdentifier, userId.ToString()),
-                 new Claim(ClaimTypes.Email, email)
+                 new Claim(ClaimTypes.Email, email),
+                 new Claim(ClaimTypes.Role, role)
             };
 
             var token = new JwtSecurityToken(

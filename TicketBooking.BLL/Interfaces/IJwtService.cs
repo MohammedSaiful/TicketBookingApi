@@ -9,7 +9,7 @@ namespace TicketBooking.BLL.Interfaces
 {
     public interface IJwtService
     {
-        string GenerateToken(int userId, string email);
+        string GenerateToken(int userId, string email, string role);
         RefreshToken GenerateRefreshToken(int userId);
     }
 }

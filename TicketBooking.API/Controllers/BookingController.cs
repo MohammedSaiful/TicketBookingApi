@@ -21,7 +21,7 @@ namespace TicketBooking.API.Controllers
 
         // GET: api/booking
         [HttpGet]
-        [Authorize]
+        [Authorize(Roles = "Admin,Customer")]
         public async Task<ActionResult<List<BookingReadDTO>>> GetAll()
         {
             var bookings = await _service.GetAllAsync();
@@ -38,6 +38,7 @@ namespace TicketBooking.API.Controllers
 
         // GET: api/booking/{id}
         [HttpGet("{id}")]
+        [Authorize(Roles = "Admin,Customer")]
         public async Task<ActionResult<BookingReadDTO>> Get(int id)
         {
             var booking = await _service.GetAsync(id);
@@ -54,6 +55,7 @@ namespace TicketBooking.API.Controllers
 
         // GET: api/booking/user/{userId}
         [HttpGet("user/{userId}")]
+        [Authorize(Roles = "Admin,Customer")]
         public async Task<ActionResult<List<BookingReadDTO>>> GetByUser(int userId)
         {
             var bookings = await _service.GetByUserAsync(userId);
@@ -70,6 +72,7 @@ namespace TicketBooking.API.Controllers
 
         // GET: api/booking/details/{bookingId}
         [HttpGet("details/{bookingId}")]
+        [Authorize(Roles = "Admin,Customer")]
         public async Task<ActionResult<BookingDetailsDTO>> GetDetails(int bookingId)
         {
             var booking = await _service.GetDetailsAsync(bookingId);
@@ -86,6 +89,7 @@ namespace TicketBooking.API.Controllers
 
         // POST: api/booking
         [HttpPost]
+        [Authorize(Roles = "Admin,Customer")]
         public async Task<ActionResult> Create(BookingCreateDTO dto)
         {
             if (dto == null)
@@ -107,6 +111,7 @@ namespace TicketBooking.API.Controllers
 
         // PUT: api/booking/status
         [HttpPut("status")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> ChangeStatus(ChangeBookingStatusDTO dto)
         {
             if (dto == null)
@@ -128,6 +133,7 @@ namespace TicketBooking.API.Controllers
 
         // DELETE: api/booking/{id}
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Delete(int id)
         {
             var success = await _service.DeleteAsync(id);

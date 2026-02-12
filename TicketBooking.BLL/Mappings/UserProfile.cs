@@ -13,9 +13,11 @@ namespace TicketBooking.BLL.Mappings
     {
         public UserProfile()
         {
-            CreateMap<UserRegisterDTO, User>();
+            CreateMap<UserRegisterDTO, User>().ReverseMap();
 
-            CreateMap<User, UserDTO>();
+            CreateMap<User, UserDTO>().ReverseMap();
+
+            CreateMap<UserRoleDTO, User>().ReverseMap();
         }
     }
 }

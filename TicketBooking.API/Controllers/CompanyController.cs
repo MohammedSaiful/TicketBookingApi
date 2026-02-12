@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TicketBooking.BLL.DTOs.Company;
 using TicketBooking.BLL.Interfaces;
@@ -18,6 +19,7 @@ namespace TicketBooking.API.Controllers
 
         // GET: api/company
         [HttpGet]
+        [Authorize(Roles = "Admin,Customer")]
         public async Task<ActionResult<List<CompanyReadDTO>>> GetAll()
         {
             var companies = await _service.GetAllAsync();
@@ -34,6 +36,7 @@ namespace TicketBooking.API.Controllers
 
         // GET: api/company/{id}
         [HttpGet("{id}")]
+        [Authorize(Roles = "Admin,Customer")]
         public async Task<ActionResult<CompanyReadDTO>> Get(int id)
         {
             var company = await _service.GetAsync(id);
@@ -50,6 +53,7 @@ namespace TicketBooking.API.Controllers
 
         // GET: api/company/vehicles/{companyId}
         [HttpGet("vehicles/{companyId}")]
+        [Authorize(Roles = "Admin,Customer")]
         public async Task<ActionResult<CompanyVehicleDTO>> GetWithVehicles(int companyId)
         {
             var company = await _service.GetWithVehiclesAsync(companyId);
@@ -66,6 +70,7 @@ namespace TicketBooking.API.Controllers
 
         // POST: api/company
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Create(CompanyCreateDTO dto)
         {
             if (dto == null)
@@ -87,6 +92,7 @@ namespace TicketBooking.API.Controllers
 
         // PUT: api/company/{id}
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Update(int id, CompanyCreateDTO dto)
         {
             if (dto == null)
@@ -108,6 +114,7 @@ namespace TicketBooking.API.Controllers
 
         // DELETE: api/company/{id}
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Delete(int id)
         {
             var success = await _service.DeleteAsync(id);

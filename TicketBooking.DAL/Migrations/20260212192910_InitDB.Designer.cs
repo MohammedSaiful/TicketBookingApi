@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TicketBooking.DAL.Entities;
 
@@ -11,9 +12,11 @@ using TicketBooking.DAL.Entities;
 namespace TicketBooking.DAL.Migrations
 {
     [DbContext(typeof(TicketBookingDBContext))]
-    partial class TicketBookingDBContextModelSnapshot : ModelSnapshot
+    [Migration("20260212192910_InitDB")]
+    partial class InitDB
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -63,56 +66,6 @@ namespace TicketBooking.DAL.Migrations
                     b.HasIndex("VehicleId");
 
                     b.ToTable("Booking", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            BookingDate = new DateTime(2026, 2, 12, 19, 30, 39, 357, DateTimeKind.Utc).AddTicks(500),
-                            CreatedAt = new DateTime(2026, 2, 12, 19, 30, 39, 357, DateTimeKind.Utc).AddTicks(502),
-                            DiscountPercent = 0m,
-                            NetFare = 2400m,
-                            Status = "Confirmed",
-                            TotalFare = 2400m,
-                            UserId = 1,
-                            VehicleId = 1
-                        },
-                        new
-                        {
-                            Id = 2,
-                            BookingDate = new DateTime(2026, 2, 12, 19, 30, 39, 357, DateTimeKind.Utc).AddTicks(504),
-                            CreatedAt = new DateTime(2026, 2, 12, 19, 30, 39, 357, DateTimeKind.Utc).AddTicks(505),
-                            DiscountPercent = 0m,
-                            NetFare = 1200m,
-                            Status = "Pending",
-                            TotalFare = 1200m,
-                            UserId = 2,
-                            VehicleId = 1
-                        },
-                        new
-                        {
-                            Id = 3,
-                            BookingDate = new DateTime(2026, 2, 12, 19, 30, 39, 357, DateTimeKind.Utc).AddTicks(506),
-                            CreatedAt = new DateTime(2026, 2, 12, 19, 30, 39, 357, DateTimeKind.Utc).AddTicks(507),
-                            DiscountPercent = 10m,
-                            NetFare = 1980m,
-                            Status = "Confirmed",
-                            TotalFare = 2200m,
-                            UserId = 3,
-                            VehicleId = 2
-                        },
-                        new
-                        {
-                            Id = 4,
-                            BookingDate = new DateTime(2026, 2, 12, 19, 30, 39, 357, DateTimeKind.Utc).AddTicks(509),
-                            CreatedAt = new DateTime(2026, 2, 12, 19, 30, 39, 357, DateTimeKind.Utc).AddTicks(509),
-                            DiscountPercent = 0m,
-                            NetFare = 1100m,
-                            Status = "Cancelled",
-                            TotalFare = 1100m,
-                            UserId = 4,
-                            VehicleId = 2
-                        });
                 });
 
             modelBuilder.Entity("TicketBooking.DAL.Entities.BookingSeat", b =>
@@ -137,32 +90,6 @@ namespace TicketBooking.DAL.Migrations
                         .IsUnique();
 
                     b.ToTable("BookingSeat", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            BookingId = 1,
-                            SeatId = 1
-                        },
-                        new
-                        {
-                            Id = 2,
-                            BookingId = 1,
-                            SeatId = 2
-                        },
-                        new
-                        {
-                            Id = 3,
-                            BookingId = 2,
-                            SeatId = 3
-                        },
-                        new
-                        {
-                            Id = 4,
-                            BookingId = 3,
-                            SeatId = 5
-                        });
                 });
 
             modelBuilder.Entity("TicketBooking.DAL.Entities.Company", b =>
@@ -181,28 +108,6 @@ namespace TicketBooking.DAL.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Company", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "GreenLine"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Name = "Shohagh"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Name = "Hanif"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Name = "Soudia"
-                        });
                 });
 
             modelBuilder.Entity("TicketBooking.DAL.Entities.Payment", b =>
@@ -243,48 +148,6 @@ namespace TicketBooking.DAL.Migrations
                         .IsUnique();
 
                     b.ToTable("Payment", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Amount = 2400m,
-                            BookingId = 1,
-                            Method = "Card",
-                            PaymentDate = new DateTime(2026, 2, 12, 19, 30, 39, 357, DateTimeKind.Utc).AddTicks(542),
-                            Status = "Paid",
-                            TransactionId = "TXN1001"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Amount = 1200m,
-                            BookingId = 2,
-                            Method = "Cash",
-                            PaymentDate = new DateTime(2026, 2, 12, 19, 30, 39, 357, DateTimeKind.Utc).AddTicks(547),
-                            Status = "Failed",
-                            TransactionId = "TXN1002"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Amount = 1980m,
-                            BookingId = 3,
-                            Method = "Mobile Banking",
-                            PaymentDate = new DateTime(2026, 2, 12, 19, 30, 39, 357, DateTimeKind.Utc).AddTicks(549),
-                            Status = "Paid",
-                            TransactionId = "TXN1003"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Amount = 1100m,
-                            BookingId = 4,
-                            Method = "Card",
-                            PaymentDate = new DateTime(2026, 2, 12, 19, 30, 39, 357, DateTimeKind.Utc).AddTicks(550),
-                            Status = "Refunded",
-                            TransactionId = "TXN1004"
-                        });
                 });
 
             modelBuilder.Entity("TicketBooking.DAL.Entities.RefreshToken", b =>
@@ -336,32 +199,6 @@ namespace TicketBooking.DAL.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Route", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Destination = "Chittagong",
-                            Origin = "Dhaka"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Destination = "Sylhet",
-                            Origin = "Dhaka"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Destination = "Rajshahi",
-                            Origin = "Dhaka"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Destination = "Sylhet",
-                            Origin = "Chittagong"
-                        });
                 });
 
             modelBuilder.Entity("TicketBooking.DAL.Entities.Seat", b =>
@@ -388,64 +225,6 @@ namespace TicketBooking.DAL.Migrations
                     b.HasIndex("VehicleId");
 
                     b.ToTable("Seat", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            IsBooked = false,
-                            SeatNumber = "A1",
-                            VehicleId = 1
-                        },
-                        new
-                        {
-                            Id = 2,
-                            IsBooked = false,
-                            SeatNumber = "A2",
-                            VehicleId = 1
-                        },
-                        new
-                        {
-                            Id = 3,
-                            IsBooked = false,
-                            SeatNumber = "A3",
-                            VehicleId = 1
-                        },
-                        new
-                        {
-                            Id = 4,
-                            IsBooked = false,
-                            SeatNumber = "A4",
-                            VehicleId = 1
-                        },
-                        new
-                        {
-                            Id = 5,
-                            IsBooked = false,
-                            SeatNumber = "B1",
-                            VehicleId = 2
-                        },
-                        new
-                        {
-                            Id = 6,
-                            IsBooked = false,
-                            SeatNumber = "B2",
-                            VehicleId = 2
-                        },
-                        new
-                        {
-                            Id = 7,
-                            IsBooked = false,
-                            SeatNumber = "B3",
-                            VehicleId = 2
-                        },
-                        new
-                        {
-                            Id = 8,
-                            IsBooked = false,
-                            SeatNumber = "B4",
-                            VehicleId = 2
-                        });
                 });
 
             modelBuilder.Entity("TicketBooking.DAL.Entities.User", b =>
@@ -482,44 +261,6 @@ namespace TicketBooking.DAL.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("User", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CreatedAt = new DateTime(2026, 2, 12, 19, 30, 39, 357, DateTimeKind.Utc).AddTicks(477),
-                            Email = "rahim@gmail.com",
-                            FullName = "Rahim",
-                            Password = "Rahim@123",
-                            Role = "Customer"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CreatedAt = new DateTime(2026, 2, 12, 19, 30, 39, 357, DateTimeKind.Utc).AddTicks(479),
-                            Email = "karim@gmail.com",
-                            FullName = "Karim",
-                            Password = "Karim@123",
-                            Role = "Customer"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CreatedAt = new DateTime(2026, 2, 12, 19, 30, 39, 357, DateTimeKind.Utc).AddTicks(480),
-                            Email = "salma@gmail.com",
-                            FullName = "Salma",
-                            Password = "Salma@123",
-                            Role = "Customer"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            CreatedAt = new DateTime(2026, 2, 12, 19, 30, 39, 357, DateTimeKind.Utc).AddTicks(482),
-                            Email = "rita@gmail.com",
-                            FullName = "Rita",
-                            Password = "Rita@123",
-                            Role = "Customer"
-                        });
                 });
 
             modelBuilder.Entity("TicketBooking.DAL.Entities.Vehicle", b =>
@@ -557,48 +298,6 @@ namespace TicketBooking.DAL.Migrations
                     b.HasIndex("RouteId");
 
                     b.ToTable("Vehicle", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            BaseFare = 1200m,
-                            CompanyId = 1,
-                            DepartureTime = new DateTime(2026, 2, 13, 10, 0, 0, 0, DateTimeKind.Local),
-                            RouteId = 1,
-                            TotalSeats = 40,
-                            Type = "Bus"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            BaseFare = 1100m,
-                            CompanyId = 2,
-                            DepartureTime = new DateTime(2026, 2, 13, 14, 0, 0, 0, DateTimeKind.Local),
-                            RouteId = 2,
-                            TotalSeats = 40,
-                            Type = "Bus"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            BaseFare = 1000m,
-                            CompanyId = 3,
-                            DepartureTime = new DateTime(2026, 2, 13, 16, 0, 0, 0, DateTimeKind.Local),
-                            RouteId = 3,
-                            TotalSeats = 40,
-                            Type = "Bus"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            BaseFare = 1300m,
-                            CompanyId = 4,
-                            DepartureTime = new DateTime(2026, 2, 13, 18, 0, 0, 0, DateTimeKind.Local),
-                            RouteId = 4,
-                            TotalSeats = 40,
-                            Type = "Bus"
-                        });
                 });
 
             modelBuilder.Entity("TicketBooking.DAL.Entities.Booking", b =>

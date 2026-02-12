@@ -11,6 +11,7 @@ namespace TicketBooking.API.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IAuth _service;
+
         public AuthController(IAuth service)
         {
             _service = service;
@@ -45,7 +46,7 @@ namespace TicketBooking.API.Controllers
             {
                 return BadRequest("Invalid data");
             }
-
+            var user = await _service.LoginAsync(dto);
             var authResponse = await _service.LoginAsync(dto);
 
             if (authResponse != null)
