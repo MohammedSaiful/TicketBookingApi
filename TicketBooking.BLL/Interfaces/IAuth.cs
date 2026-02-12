@@ -12,5 +12,6 @@ namespace TicketBooking.BLL.Interfaces
     {
         Task<bool> RegisterAsync(UserRegisterDTO dto);
         Task<AuthResponseDTO?> LoginAsync(UserLoginDTO dto);
+        Task<AuthResponseDTO?> RefreshTokenAsync(string token);
     }
 }

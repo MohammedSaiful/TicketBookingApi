@@ -28,6 +28,7 @@ namespace TicketBooking.DAL.Entities
         public DbSet<Booking> Bookings { get; set; }
         public DbSet<BookingSeat> BookingSeats { get; set; }
         public DbSet<Payment> Payments { get; set; }
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
 
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{

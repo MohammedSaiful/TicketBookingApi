@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using TicketBooking.BLL.DTOs.Authentication;
 using TicketBooking.BLL.DTOs.User;
 using TicketBooking.BLL.Interfaces;
 
@@ -55,6 +56,19 @@ namespace TicketBooking.API.Controllers
             {
                 return Unauthorized("Invalid email or password");
             }
+        }
+
+        [HttpPost("refresh")]
+        public async Task<IActionResult> Refresh(RefreshRequestDTO dto)
+        {
+            if (string.IsNullOrEmpty(dto.RefreshToken))
+                return BadRequest("Refresh token is required");
+
+            var result = await _service.RefreshTokenAsync(dto.RefreshToken);
+            if (result == null)
+                return Unauthorized("Invalid or expired refresh token");
+
+            return Ok(result); // returns new access + refresh tokens
         }
 
     }

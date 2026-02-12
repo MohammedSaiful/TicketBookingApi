@@ -52,6 +52,10 @@ namespace TicketBooking.DAL
         {
             return new CompanyRepository(_db);
         }
+        public IRefreshTokenFeature RefreshTokenData()
+        {
+            return new RefreshTokenRepository(_db);
+        }
     }
 }
 

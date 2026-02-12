@@ -5,9 +5,11 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using TicketBooking.BLL.Interfaces;
+using TicketBooking.DAL.Entities;
 
 namespace TicketBooking.BLL.Services
 {
@@ -20,6 +22,7 @@ namespace TicketBooking.BLL.Services
             _config = config;
         }
 
+        // Generate JWT token for authenticated user(access token)
         public string GenerateToken(int userId, string email)
         {
             var key = new SymmetricSecurityKey(
@@ -30,9 +33,9 @@ namespace TicketBooking.BLL.Services
 
             var claims = new[]
             {
-            new Claim(ClaimTypes.NameIdentifier, userId.ToString()),
-            new Claim(ClaimTypes.Email, email)
-        };
+                 new Claim(ClaimTypes.NameIdentifier, userId.ToString()),
+                 new Claim(ClaimTypes.Email, email)
+            };
 
             var token = new JwtSecurityToken(
                 issuer: _config["Jwt:Issuer"],
@@ -45,6 +48,20 @@ namespace TicketBooking.BLL.Services
             );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+        //Refresh Token
+        public RefreshToken GenerateRefreshToken(int userId)
+        {
+            var refreshToken = new RefreshToken
+            {
+                ReToken = Convert.ToBase64String(RandomNumberGenerator.GetBytes(64)),
+                UserId = userId,
+                Created = DateTime.UtcNow,
+                Expires = DateTime.UtcNow.AddDays(7) // 7 days valid
+            };
+
+            return refreshToken;
         }
     }
 }
