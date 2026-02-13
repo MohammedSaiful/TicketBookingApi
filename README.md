@@ -12,7 +12,7 @@ The Ticket Booking API is a secure backend system built with ASP.NET Core.
 
 * Mapping: AutoMapper (DTO Pattern)
 
-* Patterns: Repository Pattern, Factory Pattern, Dependency Injection
+* Patterns: Repository Pattern, Factory Pattern, Dependency Injection, SOLID
 
 ## Architecture Overview
 The project is divided into three distinct layers to ensure separation of concerns:
